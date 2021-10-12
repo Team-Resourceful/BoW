@@ -1,0 +1,2 @@
+backups_to_keep = 5
+backup_timer = 60

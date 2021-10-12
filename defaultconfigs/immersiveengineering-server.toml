@@ -1,0 +1,13 @@
+[ores]
+[ores.copper]
+vein_size = 0
+[ores.bauxite]
+vein_size = 0
+[ores.lead]
+vein_size = 0
+[ores.silver]
+vein_size = 0
+[ores.nickel]
+vein_size = 0
+[ores.uranium]
+vein_size = 0

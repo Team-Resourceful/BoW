@@ -1,0 +1,8 @@
+[common]
+collectStats = false
+versionCheck = false
+[common-server]
+umbrella = true
+[common-server.world]
+hunterTentDistance = 100
+hunterTentSeparation = 25

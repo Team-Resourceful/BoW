@@ -1,0 +1,6 @@
+[recipes]
+bulkCutting = true
+bulkPressing = true
+[fluids]
+fluidTankCapacity = 64
+hosePulleyBlockThreshold = -1

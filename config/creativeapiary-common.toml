@@ -1,0 +1,6 @@
+tierCreativeApiaryOutput = "BLOCK"
+tierCreativeApiaryQuantity = 10
+tierCreativeApiaryMaxBees = 18
+tierCreativeApiaryMaxTimeInHive = 0.75
+CreativeApiaryBreederSpeed = 0.75
+CreativeApiaryStorageItemMaxStackSize = 16384

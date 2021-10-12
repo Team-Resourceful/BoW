@@ -1,0 +1,104 @@
+[tier]
+[tier.chemical_tanks]
+advancedOutput = 5120
+advancedStorage = 512000
+basicOutput = 640
+basicStorage = 64000
+creativeOutput = 4611686018427387903
+creativeStorage = 9223372036854775807
+eliteOutput = 40960
+eliteStorage = 4096000
+ultimateOutput = 327680
+ultimateStorage = 32768000
+
+[tier.bins]
+advancedStorage = 32768
+basicStorage = 4096
+creativeStorage = 2147483647
+eliteStorage = 524288
+ultimateStorage = 16777216
+
+[tier.induction]
+advancedOutput = "2048000"
+advancedStorage = "64000000000"
+basicOutput = "256000"
+basicStorage = "8000000000"
+eliteOutput = "16384000"
+eliteStorage = "512000000000"
+ultimateOutput = "131072000"
+ultimateStorage = "4000000000000"
+
+[tier.transmitters]
+[tier.transmitters.heat]
+advancedHeatCapacity = 1.0
+advancedInsulation = 400.0
+advancedInverseConduction = 5.0
+basicHeatCapacity = 1.0
+basicInsulation = 10.0
+basicInverseConduction = 5.0
+eliteHeatCapacity = 1.0
+eliteInsulation = 8000.0
+eliteInverseConduction = 5.0
+ultimateHeatCapacity = 1.0
+ultimateInsulation = 100000.0
+ultimateInverseConduction = 5.0
+
+[tier.transmitters.gas]
+advancedCapacity = 64000
+advancedPullAmount = 4000
+basicCapacity = 8000
+basicPullAmount = 1000
+eliteCapacity = 1000000
+elitePullAmount = 128000
+ultimateCapacity = 16000000
+ultimatePullAmount = 1024000
+
+[tier.transmitters.fluid]
+advancedCapacity = 16000
+advancedPullAmount = 4000
+basicCapacity = 4000
+basicPullAmount = 512
+eliteCapacity = 64000
+elitePullAmount = 16000
+ultimateCapacity = 512000
+ultimatePullAmount = 64000
+
+[tier.transmitters.items]
+advancedPullAmount = 128
+advancedSpeed = 32
+basicPullAmount = 8
+basicSpeed = 16
+elitePullAmount = 256
+eliteSpeed = 64
+ultimatePullAmount = 512
+ultimateSpeed = 128
+
+[tier.transmitters.energy]
+advancedCapacity = "128000"
+basicCapacity = "8000"
+eliteCapacity = "1024000"
+ultimateCapacity = "8192000"
+
+[tier.energy_cubes]
+advancedOutput = "64000"
+advancedStorage = "64000000"
+basicOutput = "4000"
+basicStorage = "4000000"
+creativeOutput = "18446744073709551615.9999"
+creativeStorage = "18446744073709551615.9999"
+eliteOutput = "512000"
+eliteStorage = "512000000"
+ultimateOutput = "4096000"
+ultimateStorage = "4096000000"
+
+[tier.fluid_tanks]
+advancedOutput = 5120
+advancedStorage = 512000
+basicOutput = 640
+basicStorage = 64000
+creativeOutput = 1073741823
+creativeStorage = 2147483647
+eliteOutput = 40960
+eliteStorage = 4096000
+ultimateOutput = 327680
+ultimateStorage = 32768000

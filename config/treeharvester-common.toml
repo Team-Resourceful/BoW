@@ -1,0 +1,5 @@
+[General]
+increaseExhaustionPerHarvestedLog = false
+instantBreakLeavesAround = true
+loseDurabilityPerHarvestedLog = false
+treeHarvestWithoutSneak = true
