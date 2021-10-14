@@ -43,10 +43,6 @@ onEvent('recipes', e => {
   }).id('kubejs:minecraft/hopper')
   e.shaped('16x minecraft:stick', ['L', 'L'], { 'L': '#minecraft:logs' }).id('kubejs:minecraft/sticks')
   e.shaped('12x minecraft:grass', [' E ', 'E E'], { 'E': 'mysticalagriculture:nature_essence' }).id('kubejs:minecraft/grass')
-  e.shaped('minecraft:dragon_egg', ['SSS', 'SDS', 'SSS'], {
-    S: 'mysticalagradditions:dragon_egg_chunk',
-    D: 'atmadditions:dragon_soul'
-  }).id('kubejs:minecraft/dragon_egg')
   e.shaped('minecraft:white_wool', ['SS', 'SS'], { S: '#forge:string' })
   e.shaped('3x minecraft:glass', ['GGG', 'G G', 'GGG',], { G: 'minecraft:glass_pane' })
 
