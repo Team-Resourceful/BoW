@@ -33,12 +33,6 @@ onEvent('recipes', e => {
     G: '#forge:gravel',
     U: ['minecraft:water_bucket', 'mahoutsukai:murky_bucket']
   }).id('kubejs:immersiveengineering/concrete')
-  e.shaped('8x immersivepetroleum:asphalt', ['SBS', 'GOG', 'SBS'], {
-    B: '#forge:bitumen',
-    S: ['#forge:sand', '#forge:slag'],
-    G: '#forge:gravel',
-    O: '#forge:water'
-  }).id('kubejs:engineersdecor/slag_brick_block')
 
   modifyShaped(e, 'engineerstools:crushing_hammer', 1, ['RI ', 'BS ', '  S'], {
     R: '#forge:string',
