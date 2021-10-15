@@ -67,7 +67,11 @@ onEvent('jei.hide.items', e => {
     'thermal:fluid_tank_creative_augment',
     'thermal:machine_catalyst_creative_augment',
     'translocators:diamond_nugget',
-    'createaddition:diamond_grit'
+    'createaddition:diamond_grit',
+    /zycraft:aluminium_foil/,
+    /zycraft:quartz_bucket/,
+    /zycraft:aluminium_can/,
+    /ftblibrary:fluid_container/
   ])
 
   colors.forEach(color => {

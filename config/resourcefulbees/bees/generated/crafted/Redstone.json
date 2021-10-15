@@ -1,0 +1,36 @@
+{
+  "flower": "tag:forge:storage_blocks/redstone",
+  "hasHoneycomb": true,
+  "baseLayerTexture": "ores/redstone/redstone_bee",
+  "ColorData": {
+    "honeycombColor": "#aa0f01",
+    "modelType": "ORE"
+  },
+  "MutationData": {
+    "hasMutation": true,
+    "mutations" : [
+      {
+        "type": "BLOCK",
+        "inputID": "minecraft:stone",
+        "outputs": [
+          {"outputID": "minecraft:redstone", "weight": 10},
+          {"outputID": "minecraft:cobblestone", "weight": 10}
+        ]
+      }
+    ]
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "minecraft:redstone",
+    "mainOutputCount": 4
+  },
+  "SpawnData": {
+    "canSpawnInWorld": true,
+    "biomeWhitelist": "tag:OVERWORLD",
+    "biomeBlacklist": "tag:ocean"
+  },
+  "BreedData": {
+    "isBreedable": true
+  },
+  "TraitData": {}
+}

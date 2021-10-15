@@ -1,0 +1,42 @@
+{
+  "flower": "minecraft:spawner",
+  "baseLayerTexture": "dungeon/dungeon_bee",
+  "ColorData": {
+    "honeycombColor": "#2A4455",
+    "modelType": "MUSHROOM"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": false
+  },
+  "MutationData": {
+    "hasMutation": true,
+    "mutationCount": 5,
+    "mutations": [
+      {
+        "type": "BLOCK_TO_BLOCK",
+        "inputID": "minecraft:cobblestone",
+        "outputs": [
+          {
+            "outputID": "minecraft:mossy_cobblestone",
+            "weight": 99
+          },
+          {
+            "outputID": "minecraft:chest",
+            "weight": 1,
+            "nbtData": {
+              "LootTable": "minecraft:chests/simple_dungeon"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "feedItem": "minecraft:mossy_cobblestone",
+    "feedAmount": 4
+  },
+  "TraitData": {
+    "hasTraits": true
+  }
+}

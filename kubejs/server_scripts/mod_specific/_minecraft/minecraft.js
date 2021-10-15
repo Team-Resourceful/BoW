@@ -71,7 +71,6 @@ onEvent('recipes', e => {
       W: ['resourcefulbees:water_honeycomb', 'mysticalagriculture:water_essence', 'minecraft:water_bucket']
     })
     e.shaped(`2x minecraft:${color}_wool`, ['C', 'C', 'C',], { C: `minecraft:${color}_carpet` })
-    e.shaped(item.of(`minecraft:${color}_wool`, 1), ['W', 'W'], { W: `absentbydesign:slab_wool_${color == 'light_gray' ? 'silver' : color}` })
     e.shapeless(`minecraft:${color}_bed`, ['#minecraft:beds', `#forge:dyes/${color}`])
     e.shapeless(`minecraft:${color}_carpet`, ['#minecraft:carpets', `#forge:dyes/${color}`])
 

@@ -1,6 +1,6 @@
 onEvent('item.tooltip', e => {
-  //#region variables
-  let formattedTooltip = (item, tooltip, signature) => {
+  //#region functions
+  let formattedTooltip = (item, tooltip) => {
     e.add(item, '')
     let line = ''
     tooltip.split(' ').forEach(word => {
@@ -11,7 +11,6 @@ onEvent('item.tooltip', e => {
       }
     })
     if (line.length > 0) e.add(item, Text.of(line).darkPurple())
-    if (signature) e.add(item, Text.of(`   - ${signature}`).darkRed())
     e.add(item, '')
   }
   //#endregion
@@ -91,4 +90,5 @@ onEvent('item.tooltip', e => {
     [Text.of('Energy:').darkPurple(), ' ', Text.of('2,147,483,647').lightPurple(), ' ', Text.of('FE/t').darkPurple()],
   ])
   //#endregion
+  
 })
