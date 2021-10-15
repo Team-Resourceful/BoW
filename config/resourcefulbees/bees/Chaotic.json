@@ -1,23 +1,9 @@
 {
   "flower": "draconicevolution:chaotic_crafting_injector",
-  "traits": [
-    "chaotic"
-  ],
+  "traits": ["chaotic"],
   "hasHoneycomb": true,
-  "apiaryOutputAmounts": [
-    8,
-    16,
-    24,
-    32,
-    40
-  ],
-  "apiaryOutputTypes": [
-    "COMB",
-    "COMB",
-    "COMB",
-    "COMB",
-    "COMB"
-  ],
+  "apiaryOutputAmounts": [8, 16, 24, 32, 40],
+  "apiaryOutputTypes": ["COMB", "COMB", "COMB", "COMB", "COMB"],
   "baseLayerTexture": "dragon/dragon_bee_primary",
   "ColorData": {
     "primaryColor": "#161616",

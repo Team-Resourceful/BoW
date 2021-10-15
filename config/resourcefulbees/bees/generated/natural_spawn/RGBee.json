@@ -7,7 +7,6 @@
     "isRainbowBee": true,
     "isGlowing": true
   },
-  "MutationData": {},
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
     "mainOutput": "minecraft:red_dye",
@@ -22,6 +21,5 @@
   },
   "BreedData": {
     "isBreedable": true
-  },
-  "TraitData": {}
+  }
 }

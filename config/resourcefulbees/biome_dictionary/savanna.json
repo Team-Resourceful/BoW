@@ -4,6 +4,23 @@
     "minecraft:savanna_plateau",
     "minecraft:shattered_savanna",
     "minecraft:shattered_savanna_plateau",
-    "byg:baobab_savanna"
+    "byg:baobab_savanna",
+    "byg:araucaria_savanna",
+    "biomesoplenty:dryland",
+    "biomesoplenty:lush_desert",
+    "biomesoplenty:scrubland",
+    "biomesoplenty:shrubland",
+    "biomesoplenty:tundra",
+    "biomesoplenty:dry_boneyard",
+    "biomesoplenty:lush_savanna",
+    "biomesoplenty:dead_swamp",
+    "biomesoplenty:shrubland_hills",
+    "biomesoplenty:tundra_basin",
+    "biomesoplenty:tundra_bog",
+    "biomesoplenty:wooded_scrubland",
+    "terraforged:savanna_scrub",
+    "terraforged:shattered_savanna_scrub",
+    "terraforged:snowy_taiga_scrub",
+    "terraforged:taiga_scrub"
   ]
 }

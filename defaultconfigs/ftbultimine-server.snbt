@@ -1,6 +1,6 @@
 {
 	merge_tags: [
+		"ultimine:zychorium_vein"
 		"integrateddynamics:menril_logs"
-		"zycraft:ores/zychorium"
 	]
 }

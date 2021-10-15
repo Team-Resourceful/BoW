@@ -11,25 +11,22 @@
   "MutationData": {
     "hasMutation": true,
     "mutationCount": 5,
-    "mutations": [
-      {
-        "type": "BLOCK_TO_BLOCK",
-        "inputID": "minecraft:cobblestone",
-        "outputs": [
-          {
-            "outputID": "minecraft:mossy_cobblestone",
-            "weight": 99
-          },
-          {
-            "outputID": "minecraft:chest",
-            "weight": 1,
-            "nbtData": {
-              "LootTable": "minecraft:chests/simple_dungeon"
-            }
+    "mutations": [{
+      "type": "BLOCK_TO_BLOCK",
+      "inputID": "minecraft:cobblestone",
+      "outputs": [{
+          "outputID": "minecraft:mossy_cobblestone",
+          "weight": 99
+        },
+        {
+          "outputID": "minecraft:chest",
+          "weight": 1,
+          "nbtData": {
+            "LootTable": "minecraft:chests/simple_dungeon"
           }
-        ]
-      }
-    ]
+        }
+      ]
+    }]
   },
   "BreedData": {
     "isBreedable": true,

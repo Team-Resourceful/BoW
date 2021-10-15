@@ -1,8 +1,8 @@
 {
   "flower": "minecraft:obsidian",
   "hasHoneycomb": true,
-  "baseLayerTexture" : "dragon/dragon_bee",
-  "traits": [ "ender", "nether", "wither" ],
+  "baseLayerTexture": "dragon/dragon_bee",
+  "traits": ["ender", "nether", "wither"],
   "ColorData": {
     "isBeeColored": true,
     "isGlowing": true,
@@ -17,16 +17,15 @@
   },
   "MutationData": {
     "hasMutation": true,
-    "mutations" : [
-      {
-        "type": "BLOCK",
-        "inputID": "minecraft:stone",
-        "chance": 0.5,
-        "outputs": [
-          {"outputID": "minecraft:end_stone", "weight": 10}
-        ]
-      }
-    ]
+    "mutations": [{
+      "type": "BLOCK",
+      "inputID": "minecraft:stone",
+      "chance": 0.5,
+      "outputs": [{
+        "outputID": "minecraft:end_stone",
+        "weight": 10
+      }]
+    }]
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,

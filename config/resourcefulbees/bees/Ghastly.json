@@ -1,8 +1,6 @@
 {
   "flower": "tag:misctags:flowers/nether_flowers",
-  "traits": [
-    "nether"
-  ],
+  "traits": ["nether"],
   "hasHoneycomb": true,
   "baseLayerTexture": "misc/ghost_bee",
   "ColorData": {

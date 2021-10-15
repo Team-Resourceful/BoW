@@ -1,8 +1,6 @@
 {
   "flower": "tag:forge:dirt",
-  "traits": [
-    "can_swim"
-  ],
+  "traits": ["can_swim"],
   "hasHoneycomb": true,
   "baseLayerTexture": "misc/dirty_bee",
   "ColorData": {
@@ -18,27 +16,24 @@
   "MutationData": {
     "hasMutation": true,
     "mutationCount": 1,
-    "mutations": [
-      {
-        "type": "BLOCK_TO_ITEM",
-        "inputID": "resourcefulbees:dirty_honeycomb_block",
-        "outputs": [
-          {
-            "outputID": "minecraft:dirt",
-            "weight": 80
+    "mutations": [{
+      "type": "BLOCK_TO_ITEM",
+      "inputID": "resourcefulbees:dirty_honeycomb_block",
+      "outputs": [{
+          "outputID": "minecraft:dirt",
+          "weight": 80
+        },
+        {
+          "outputID": "resourcefulbees:bee_jar",
+          "nbtData": {
+            "Entity": "resourcefulbees:dirty_bee",
+            "BeeType": "dirty",
+            "Color": "#F1ED95"
           },
-          {
-            "outputID": "resourcefulbees:bee_jar",
-            "nbtData": {
-              "Entity": "resourcefulbees:dirty_bee",
-              "BeeType": "dirty",
-              "Color": "#F1ED95"
-            },
-            "weight": 20
-          }
-        ]
-      }
-    ]
+          "weight": 20
+        }
+      ]
+    }]
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,

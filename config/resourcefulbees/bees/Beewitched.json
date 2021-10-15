@@ -20,25 +20,22 @@
   "MutationData": {
     "hasMutation": true,
     "mutationCount": 1,
-    "mutations": [
-      {
-        "type": "BLOCK_TO_ITEM",
-        "inputID": "resourcefulbees:beewitched_honeycomb_block",
-        "outputs": [
-          {
-            "outputID": "resourcefulbees:beewitched_honeycomb",
-            "weight": 80
+    "mutations": [{
+      "type": "BLOCK_TO_ITEM",
+      "inputID": "resourcefulbees:beewitched_honeycomb_block",
+      "outputs": [{
+          "outputID": "resourcefulbees:beewitched_honeycomb",
+          "weight": 80
+        },
+        {
+          "outputID": "resourcefulbees:bee_jar",
+          "nbtData": {
+            "Entity": "resourcefulbees:beewitched_bee"
           },
-          {
-            "outputID": "resourcefulbees:bee_jar",
-            "nbtData": {
-              "Entity": "resourcefulbees:beewitched_bee"
-            },
-            "weight": 20
-          }
-        ]
-      }
-    ]
+          "weight": 20
+        }
+      ]
+    }]
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": false

@@ -1,23 +1,9 @@
 {
   "flower": "draconicevolution:awakened_crafting_injector",
-  "traits": [
-    "awakened"
-  ],
+  "traits": ["awakened"],
   "hasHoneycomb": true,
-  "apiaryOutputAmounts": [
-    8,
-    16,
-    24,
-    32,
-    40
-  ],
-  "apiaryOutputTypes": [
-    "COMB",
-    "COMB",
-    "COMB",
-    "COMB",
-    "COMB"
-  ],
+  "apiaryOutputAmounts": [8, 16, 24, 32, 40],
+  "apiaryOutputTypes": ["COMB", "COMB", "COMB", "COMB", "COMB"],
   "baseLayerTexture": "dragon/dragon_bee_primary",
   "ColorData": {
     "primaryColor": "#FF4C00",
@@ -38,27 +24,24 @@
   "MutationData": {
     "hasMutation": true,
     "mutationCount": 1,
-    "mutations": [
-      {
-        "type": "BLOCK_TO_ITEM",
-        "inputID": "draconicevolution:chaotic_crafting_injector",
-        "outputs": [
-          {
-            "outputID": "draconicevolution:small_chaos_frag",
-            "weight": 80
+    "mutations": [{
+      "type": "BLOCK_TO_ITEM",
+      "inputID": "draconicevolution:chaotic_crafting_injector",
+      "outputs": [{
+          "outputID": "draconicevolution:small_chaos_frag",
+          "weight": 80
+        },
+        {
+          "outputID": "resourcefulbees:bee_jar",
+          "nbtData": {
+            "Entity": "resourcefulbees:chaotic_bee",
+            "BeeType": "chaotic",
+            "Color": "#161616"
           },
-          {
-            "outputID": "resourcefulbees:bee_jar",
-            "nbtData": {
-              "Entity": "resourcefulbees:chaotic_bee",
-              "BeeType": "chaotic",
-              "Color": "#161616"
-            },
-            "weight": 20
-          }
-        ]
-      }
-    ]
+          "weight": 20
+        }
+      ]
+    }]
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,

@@ -19,12 +19,10 @@
   "MutationData": {
     "hasMutation": true,
     "mutationCount": 1,
-    "mutations": [
-      {
+    "mutations": [{
         "type": "BLOCK_TO_ITEM",
         "inputID": "resourcefulbees:cotton_candy_honeycomb_block",
-        "outputs": [
-          {
+        "outputs": [{
             "outputID": "pamhc2foodcore:cottoncandyitem",
             "weight": 80
           },
@@ -40,8 +38,7 @@
       {
         "type": "ENTITY_TO_ENTITY",
         "inputID": "minecraft:witch",
-        "outputs": [
-          {
+        "outputs": [{
             "outputID": "minecraft:witch",
             "weight": 80
           },
@@ -54,8 +51,7 @@
       {
         "type": "ENTITY_TO_ENTITY",
         "inputID": "vampirism:vampire",
-        "outputs": [
-          {
+        "outputs": [{
             "outputID": "vampirism:vampire",
             "weight": 80
           },
@@ -97,6 +93,6 @@
     "breedWeight": 10,
     "breedChance": 0.8,
     "feedItem": "pamhc2foodcore:cottoncandyitem",
-    "feedAmount": 5,
+    "feedAmount": 5
   }
 }

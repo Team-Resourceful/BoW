@@ -8,16 +8,19 @@
   },
   "MutationData": {
     "hasMutation": true,
-    "mutations" : [
-      {
-        "type": "BLOCK",
-        "inputID": "minecraft:blackstone",
-        "outputs": [
-          {"outputID": "minecraft:gilded_blackstone", "weight": 10},
-          {"outputID": "minecraft:netherrack", "weight": 10}
-        ]
-      }
-    ]
+    "mutations": [{
+      "type": "BLOCK",
+      "inputID": "minecraft:blackstone",
+      "outputs": [{
+          "outputID": "minecraft:gilded_blackstone",
+          "weight": 10
+        },
+        {
+          "outputID": "minecraft:netherrack",
+          "weight": 10
+        }
+      ]
+    }]
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,

@@ -2,7 +2,7 @@
   "flower": "ALL",
   "hasHoneycomb": true,
   "baseLayerTexture": "/creeper/creeper_bee",
-  "traits" : ["creeper"],
+  "traits": ["creeper"],
   "ColorData": {
     "honeycombColor": "#0C9F0A",
     "isGlowing": true,
@@ -12,16 +12,15 @@
   },
   "MutationData": {
     "hasMutation": true,
-    "mutations" : [
-      {
-        "type": "BLOCK",
-        "inputID": "minecraft:lava",
-        "chance": 0.75,
-        "outputs": [
-          {"outputID": "minecraft:mossy_cobblestone", "weight": 10}
-        ]
-      }
-    ]
+    "mutations": [{
+      "type": "BLOCK",
+      "inputID": "minecraft:lava",
+      "chance": 0.75,
+      "outputs": [{
+        "outputID": "minecraft:mossy_cobblestone",
+        "weight": 10
+      }]
+    }]
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
