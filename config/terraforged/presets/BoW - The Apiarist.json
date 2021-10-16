@@ -2,16 +2,16 @@
   "miscellaneous": {
     "smoothLayerDecorator": true,
     "strataRegionSize": 600,
-    "strataDecorator": false,
+    "strataDecorator": true,
     "oreCompatibleStoneOnly": true,
     "erosionDecorator": true,
-    "plainStoneErosion": true,
+    "plainStoneErosion": false,
     "naturalSnowDecorator": true,
     "customBiomeFeatures": true,
     "vanillaLakes": false,
-    "vanillaSprings": false,
-    "vanillaLavaLakes": false,
-    "vanillaLavaSprings": false,
+    "vanillaSprings": true,
+    "vanillaLavaLakes": true,
+    "vanillaLavaSprings": true,
     "mountainBiomeUsage": 0.4,
     "volcanoBiomeUsage": 0.4
   },
@@ -19,11 +19,11 @@
     "bedrockLayer": {
       "material": "minecraft:bedrock",
       "minDepth": 1,
-      "variance": 0
+      "variance": 4
     },
     "dimensions": {
-      "nether": "byg:bygnether",
-      "end": "byg:bygend",
+      "nether": "default",
+      "end": "default",
       "includeExtraDimensions": true
     }
   },
@@ -37,12 +37,6 @@
       "disabled": false
     },
     "structures": {
-      "appliedenergistics2:meteorite": {
-        "spacing": 32,
-        "separation": 8,
-        "salt": 124895656,
-        "disabled": false
-      },
       "astralsorcery:ancient_shrine": {
         "spacing": 18,
         "separation": 4,
@@ -91,6 +85,12 @@
         "salt": 593751808,
         "disabled": false
       },
+      "betterstrongholds:stronghold": {
+        "spacing": 85,
+        "separation": 50,
+        "salt": 596441280,
+        "disabled": false
+      },
       "dungeoncrawl:dungeon": {
         "spacing": 24,
         "separation": 12,
@@ -121,28 +121,52 @@
         "salt": 4847339,
         "disabled": false
       },
+      "feywild:autumn_world_tree": {
+        "spacing": 100,
+        "separation": 50,
+        "salt": 890124544,
+        "disabled": false
+      },
+      "feywild:beekeep": {
+        "spacing": 30,
+        "separation": 20,
+        "salt": 345820128,
+        "disabled": false
+      },
+      "feywild:blacksmith": {
+        "spacing": 35,
+        "separation": 25,
+        "salt": 567890112,
+        "disabled": false
+      },
+      "feywild:library": {
+        "spacing": 35,
+        "separation": 25,
+        "salt": 1238904576,
+        "disabled": false
+      },
+      "feywild:spring_world_tree": {
+        "spacing": 100,
+        "separation": 50,
+        "salt": 1234567936,
+        "disabled": false
+      },
+      "feywild:summer_world_tree": {
+        "spacing": 100,
+        "separation": 50,
+        "salt": 890124544,
+        "disabled": false
+      },
+      "feywild:winter_world_tree": {
+        "spacing": 100,
+        "separation": 50,
+        "salt": 890124544,
+        "disabled": false
+      },
       "forbidden_arcanus:nipa": {
         "spacing": 35,
         "separation": 8,
         "salt": 694349248,
-        "disabled": false
-      },
-      "iceandfire:gorgon_temple": {
-        "spacing": 16,
-        "separation": 8,
-        "salt": 342226464,
-        "disabled": false
-      },
-      "iceandfire:graveyard": {
-        "spacing": 48,
-        "separation": 24,
-        "salt": 342226432,
-        "disabled": false
-      },
-      "iceandfire:mausoleum": {
-        "spacing": 30,
-        "separation": 15,
-        "salt": 342226464,
         "disabled": false
       },
       "minecraft:bastion_remnant": {
@@ -248,9 +272,27 @@
         "disabled": false
       },
       "minecraft:village": {
-        "spacing": 32,
-        "separation": 8,
+        "spacing": 26,
+        "separation": 6,
         "salt": 10387312,
+        "disabled": false
+      },
+      "mowziesmobs:barakoa_village": {
+        "spacing": 25,
+        "separation": 8,
+        "salt": 123444792,
+        "disabled": false
+      },
+      "mowziesmobs:frostmaw_spawn": {
+        "spacing": 25,
+        "separation": 8,
+        "salt": 1237654784,
+        "disabled": false
+      },
+      "mowziesmobs:wrought_chamber": {
+        "spacing": 15,
+        "separation": 5,
+        "salt": 123555792,
         "disabled": false
       },
       "quark:big_dungeon": {
@@ -290,44 +332,44 @@
         "disabled": false
       },
       "repurposed_structures:mansion_birch": {
-        "spacing": 140,
-        "separation": 70,
+        "spacing": 180,
+        "separation": 90,
         "salt": 182367040,
         "disabled": false
       },
       "repurposed_structures:mansion_desert": {
-        "spacing": 140,
-        "separation": 70,
+        "spacing": 225,
+        "separation": 112,
         "salt": 724317376,
         "disabled": false
       },
       "repurposed_structures:mansion_jungle": {
-        "spacing": 140,
-        "separation": 70,
+        "spacing": 225,
+        "separation": 112,
         "salt": 1267916672,
         "disabled": false
       },
       "repurposed_structures:mansion_oak": {
-        "spacing": 140,
-        "separation": 70,
+        "spacing": 205,
+        "separation": 102,
         "salt": 147853728,
         "disabled": false
       },
       "repurposed_structures:mansion_savanna": {
-        "spacing": 140,
-        "separation": 70,
+        "spacing": 225,
+        "separation": 112,
         "salt": 2024558976,
         "disabled": false
       },
       "repurposed_structures:mansion_snowy": {
-        "spacing": 140,
-        "separation": 70,
+        "spacing": 225,
+        "separation": 112,
         "salt": 1115107840,
         "disabled": false
       },
       "repurposed_structures:mansion_taiga": {
-        "spacing": 140,
-        "separation": 70,
+        "spacing": 205,
+        "separation": 102,
         "salt": 418506496,
         "disabled": false
       },
@@ -560,14 +602,14 @@
         "disabled": false
       },
       "repurposed_structures:ruins_land_hot": {
-        "spacing": 39,
-        "separation": 9,
+        "spacing": 45,
+        "separation": 11,
         "salt": 1243670016,
         "disabled": false
       },
       "repurposed_structures:ruins_land_warm": {
-        "spacing": 36,
-        "separation": 9,
+        "spacing": 42,
+        "separation": 10,
         "salt": 18646108,
         "disabled": false
       },
@@ -578,8 +620,8 @@
         "disabled": false
       },
       "repurposed_structures:shipwreck_crimson": {
-        "spacing": 41,
-        "separation": 20,
+        "spacing": 18,
+        "separation": 9,
         "salt": 1019716864,
         "disabled": false
       },
@@ -590,14 +632,14 @@
         "disabled": false
       },
       "repurposed_structures:shipwreck_nether_bricks": {
-        "spacing": 51,
-        "separation": 25,
+        "spacing": 21,
+        "separation": 10,
         "salt": 2073308032,
         "disabled": false
       },
       "repurposed_structures:shipwreck_warped": {
-        "spacing": 41,
-        "separation": 20,
+        "spacing": 18,
+        "separation": 9,
         "salt": 2072979584,
         "disabled": false
       },
@@ -739,32 +781,25 @@
         "salt": 431041536,
         "disabled": false
       },
-      "tconstruct:clay_island": {
+      "vampirism:hunter_camp": {
         "spacing": 100,
-        "separation": 5,
-        "salt": 162976992,
-        "disabled": false
-      },
-      "tconstruct:earth_slime_island": {
-        "spacing": 25,
-        "separation": 5,
-        "salt": 25988584,
-        "disabled": false
-      },
-      "tconstruct:overworld_slime_island": {
-        "spacing": 30,
-        "separation": 5,
-        "salt": 14357800,
+        "separation": 25,
+        "salt": 14357719,
         "disabled": false
       }
     }
   },
   "world": {
     "continent": {
-      "continentType": "MULTI",
+      "continentType": "MULTI_IMPROVED",
       "continentShape": "EUCLIDEAN",
       "continentScale": 3000,
-      "continentJitter": 0.7
+      "continentJitter": 0.7,
+      "continentSkipping": 0.25,
+      "continentSizeVariance": 0.25,
+      "continentNoiseOctaves": 5,
+      "continentNoiseGain": 0.26,
+      "continentNoiseLacunarity": 4.33
     },
     "controlPoints": {
       "deepOcean": 0.1,
