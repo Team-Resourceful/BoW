@@ -6,26 +6,14 @@
     "honeycombColor": "#303030",
     "modelType": "ORE"
   },
-  "MutationData": {
-    "hasMutation": true,
-    "mutations": [{
-      "type": "BLOCK",
-      "inputID": "minecraft:stone",
-      "chance": 0.75,
-      "outputs": [{
-        "outputID": "minecraft:coal_ore",
-        "weight": 10
-      }]
-    }]
-  },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
     "mainOutput": "minecraft:coal",
     "mainOutputCount": 16
   },
   "BreedData": {
-    "feedItem": "minecraft:poppy",
-    "feedAmount": 4,
-    "isBreedable": true
+    "isBreedable": true,
+    "feedItem": "minecraft:coal",
+    "feedAmount": 5
   }
 }

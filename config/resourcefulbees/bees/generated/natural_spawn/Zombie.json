@@ -6,34 +6,19 @@
   "ColorData": {
     "honeycombColor": "#2F4E32"
   },
-  "MutationData": {
-    "hasMutation": true,
-    "mutations": [{
-      "type": "BLOCK",
-      "inputID": "minecraft:stone",
-      "outputs": [{
-          "outputID": "minecraft:cobblestone",
-          "weight": 10
-        },
-        {
-          "outputID": "minecraft:cobblestone",
-          "weight": 30
-        }
-      ]
-    }]
-  },
-  "CentrifugeData": {
-    "hasCentrifugeOutput": true,
-    "mainOutput": "minecraft:rotten_flesh"
-  },
   "SpawnData": {
     "canSpawnInWorld": true,
-    "biomeWhitelist": "tag:OVERWORLD",
+    "biomeWhitelist": "tag:overworld",
     "biomeBlacklist": "tag:ocean",
-    "lightLevel": "NIGHT"
+    "lightLevel": "NIGHT",
+    "spawnWeight": 5,
+    "minGroupSize": 1,
+    "maxGroupSize": 2
   },
   "BreedData": {
-    "isBreedable": true
+    "isBreedable": true,
+    "feedItem": "minecraft:rotten_flesh",
+    "feedAmount": 5
   },
   "TraitData": {
     "hasTraits": true

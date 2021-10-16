@@ -6,36 +6,12 @@
   "ColorData": {
     "honeycombColor": "#654740"
   },
-  "MutationData": {
-    "hasMutation": true,
-    "mutations": [{
-      "type": "BLOCK",
-      "inputID": "minecraft:blackstone",
-      "outputs": [{
-          "outputID": "minecraft:gilded_blackstone",
-          "weight": 10
-        },
-        {
-          "outputID": "minecraft:netherrack",
-          "weight": 10
-        }
-      ]
-    }]
-  },
-  "CentrifugeData": {
-    "hasCentrifugeOutput": true,
-    "mainOutput": "minecraft:netherite_ingot",
-    "mainOutputWeight": 0.05
-  },
-  "SpawnData": {
-    "canSpawnInWorld": true,
-    "biomeWhitelist": "tag:nether",
-    "lightLevel": "NIGHT"
-  },
   "BreedData": {
     "isBreedable": true,
     "parent1": "Wither",
-    "parent2": "Diamond"
+    "parent2": "Diamond",
+    "feedItem": "tag:forge:ingots/netherite",
+    "feedAmount": 5
   },
   "TraitData": {
     "hasTraits": true

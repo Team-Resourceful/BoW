@@ -16,8 +16,7 @@
     "modelType": "DRAGON"
   },
   "CombatData": {
-    "inflictsPoison": true,
-    "attackDamage": 1
+    "inflictsPoison": true
   },
   "MutationData": {
     "hasMutation": true,
@@ -39,41 +38,14 @@
             "weight": 20
           }
         ]
-      },
-      {
-        "type": "ENTITY_TO_ENTITY",
-        "inputID": "minecraft:witch",
-        "outputs": [{
-            "outputID": "minecraft:witch",
-            "weight": 80
-          },
-          {
-            "outputID": "resourcefulbees:alchemist_bee",
-            "weight": 20
-          }
-        ]
       }
     ]
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
-    "mainInputCount": 1,
     "mainOutput": "draconicevolution:draconium_nugget",
     "mainOutputWeight": 0.02,
-    "mainOutputCount": 1,
-    "secondaryOutput": "resourcefulbees:wax",
-    "secondaryOutputWeight": 0.20,
-    "secondaryOutputCount": 1,
-    "bottleOutput": "minecraft:honey_bottle",
-    "bottleOutputWeight": 0.25,
-    "bottleOutputCount": 1,
-    "recipeTime": 200
-  },
-  "SpawnData": {
-    "canSpawnInWorld": false
-  },
-  "BreedData": {
-    "isBreedable": false
+    "secondaryOutputWeight": 0.20
   },
   "TraitData": {
     "hasTraits": true

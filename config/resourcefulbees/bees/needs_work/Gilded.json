@@ -1,0 +1,28 @@
+{
+  "flower": "minecraft:blackstone",
+  "baseLayerTexture": "gilded/gilded_alchemist_bee",
+  "ColorData": {
+    "honeycombColor": "#2A4455"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": false
+  },
+  "MutationData": {
+    "hasMutation": true,
+    "mutationCount": 5,
+    "mutations": [{
+      "type": "BLOCK_TO_BLOCK",
+      "inputID": "minecraft:blackstone",
+      "outputs": [{
+          "outputID": "minecraft:gilded_blackstone",
+          "weight": 20
+        }
+      ]
+    }]
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "feedItem": "minecraft:gilded_blackstone",
+    "feedAmount": 5
+  }
+}

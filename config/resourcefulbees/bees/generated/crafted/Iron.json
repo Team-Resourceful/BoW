@@ -6,33 +6,18 @@
     "honeycombColor": "#ffcc99",
     "modelType": "ORE"
   },
-  "MutationData": {
-    "hasMutation": true,
-    "mutations": [{
-      "type": "BLOCK",
-      "inputID": "minecraft:stone",
-      "outputs": [{
-          "outputID": "minecraft:iron_ore",
-          "weight": 10
-        },
-        {
-          "outputID": "minecraft:cobblestone",
-          "weight": 10
-        }
-      ]
-    }]
-  },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
     "mainOutput": "minecraft:iron_ingot"
   },
   "SpawnData": {
     "canSpawnInWorld": true,
-    "biomeWhitelist": "tag:OVERWORLD",
+    "biomeWhitelist": "tag:overworld",
     "biomeBlacklist": "tag:ocean"
   },
   "BreedData": {
-    "isBreedable": true
-  },
-  "TraitData": {}
+    "isBreedable": true,
+    "feedItem": "minecraft:iron_ingot",
+    "feedAmount": 5
+  }
 }

@@ -1,0 +1,16 @@
+{
+  "flower": "minecraft:prismarine_bricks",
+  "baseLayerTexture": "guardian/guardian_bee",
+  "ColorData": {
+    "honeycombColor": "#2A4455",
+    "modelType": "GUARDIAN"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "feedItem": "minecraft:prismarine_shard",
+    "feedAmount": 5
+  }
+}

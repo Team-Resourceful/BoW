@@ -8,22 +8,6 @@
     "primaryColor": "#D4CABA",
     "secondaryColor": "#303030"
   },
-  "MutationData": {
-    "hasMutation": true,
-    "mutations": [{
-      "type": "BLOCK",
-      "inputID": "minecraft:netherrack",
-      "outputs": [{
-          "outputID": "minecraft:nether_quartz_ore",
-          "weight": 10
-        },
-        {
-          "outputID": "minecraft:cobblestone",
-          "weight": 10
-        }
-      ]
-    }]
-  },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
     "mainOutput": "minecraft:quartz",
@@ -35,7 +19,9 @@
     "lightLevel": "NIGHT"
   },
   "BreedData": {
-    "isBreedable": true
+    "isBreedable": true,
+    "feedItem": "minecraft:quartz",
+    "feedAmount": 5
   },
   "TraitData": {
     "hasTraits": true

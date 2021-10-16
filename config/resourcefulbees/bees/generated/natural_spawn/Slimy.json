@@ -14,15 +14,16 @@
       "inputID": "minecraft:honey_block",
       "chance": 0.8,
       "outputs": [{
-        "outputID": "minecraft:slime_block",
-        "weight": 10
+        "outputID": "minecraft:slime_block"
       }]
     }]
   },
-  "BreedData": {
-    "isBreedable": true,
-    "parent1": "rgbee",
-    "parent2": "zombie"
+  "SpawnData": {
+    "canSpawnInWorld": true,
+    "biomeWhitelist": "tag:swamp",
+    "spawnWeight": 5,
+    "minGroupSize": 1,
+    "maxGroupSize": 2
   },
   "TraitData": {
     "hasTraits": true

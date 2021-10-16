@@ -12,30 +12,12 @@
     "emissiveLayerTexture": "misc/alchemist_bee_emissive"
   },
   "CombatData": {
-    "isPassive": true,
-    "removeStingerOnAttack": true,
-    "inflictsPoison": true,
-    "attackDamage": 1
+    "isPassive": true
   },
   "MutationData": {
     "hasMutation": true,
     "mutationCount": 1,
-    "mutations": [{
-        "type": "BLOCK_TO_ITEM",
-        "inputID": "resourcefulbees:alchemist_honeycomb_block",
-        "outputs": [{
-            "outputID": "resourcefulbees:alchemist_honeycomb",
-            "weight": 80
-          },
-          {
-            "outputID": "resourcefulbees:bee_jar",
-            "nbtData": {
-              "Entity": "resourcefulbees:alchemist_bee"
-            },
-            "weight": 20
-          }
-        ]
-      },
+    "mutations": [
       {
         "type": "ENTITY_TO_ENTITY",
         "inputID": "minecraft:witch",
@@ -50,14 +32,5 @@
         ]
       }
     ]
-  },
-  "CentrifugeData": {
-    "hasCentrifugeOutput": false
-  },
-  "SpawnData": {
-    "canSpawnInWorld": false
-  },
-  "BreedData": {
-    "isBreedable": false
   }
 }

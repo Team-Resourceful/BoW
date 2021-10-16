@@ -1,5 +1,5 @@
 {
-  "flower": "mana-and-artifice:cerublossom",
+  "flower": "minecraft:poppy",
   "creator": "NoControl, Dawn Felstar",
   "lore": "Wit beyond measure is man's greatest treasure.",
   "loreColor": "#374798",
@@ -12,38 +12,6 @@
     "emissiveLayerTexture": "misc/warlock_bee_emissive"
   },
   "CombatData": {
-    "isPassive": true,
-    "removeStingerOnAttack": true,
-    "inflictsPoison": true,
-    "attackDamage": 1
-  },
-  "MutationData": {
-    "hasMutation": true,
-    "mutationCount": 1,
-    "mutations": [{
-      "type": "BLOCK_TO_ITEM",
-      "inputID": "resourcefulbees:wizard_honeycomb_block",
-      "outputs": [{
-          "outputID": "resourcefulbees:wizard_honeycomb",
-          "weight": 80
-        },
-        {
-          "outputID": "resourcefulbees:bee_jar",
-          "nbtData": {
-            "Entity": "resourcefulbees:wizard_bee"
-          },
-          "weight": 20
-        }
-      ]
-    }]
-  },
-  "CentrifugeData": {
-    "hasCentrifugeOutput": false
-  },
-  "SpawnData": {
-    "canSpawnInWorld": false
-  },
-  "BreedData": {
-    "isBreedable": false
+    "isPassive": true
   }
 }

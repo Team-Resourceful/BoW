@@ -1,5 +1,5 @@
 {
-  "flower": "ALL",
+  "flower": "tag:forge:storage_blocks/gunpowder",
   "hasHoneycomb": true,
   "baseLayerTexture": "/creeper/creeper_bee",
   "traits": ["creeper"],
@@ -10,31 +10,16 @@
     "glowingPulse": 2,
     "emissiveLayerTexture": "/creeper/creeper_bee_emissive"
   },
-  "MutationData": {
-    "hasMutation": true,
-    "mutations": [{
-      "type": "BLOCK",
-      "inputID": "minecraft:lava",
-      "chance": 0.75,
-      "outputs": [{
-        "outputID": "minecraft:mossy_cobblestone",
-        "weight": 10
-      }]
-    }]
-  },
-  "CentrifugeData": {
-    "hasCentrifugeOutput": true,
-    "mainOutput": "minecraft:gunpowder",
-    "mainOutputCount": 4
-  },
   "SpawnData": {
     "canSpawnInWorld": true,
-    "biomeWhitelist": "tag:OVERWORLD",
+    "biomeWhitelist": "tag:overworld",
     "biomeBlacklist": "tag:ocean",
     "lightLevel": "NIGHT"
   },
   "BreedData": {
-    "isBreedable": true
+    "isBreedable": true,
+    "feedItem": "minecraft:gunpowder",
+    "feedAmount": 5
   },
   "TraitData": {
     "hasTraits": true

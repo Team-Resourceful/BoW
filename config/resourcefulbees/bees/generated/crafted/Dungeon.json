@@ -31,9 +31,6 @@
   "BreedData": {
     "isBreedable": true,
     "feedItem": "minecraft:mossy_cobblestone",
-    "feedAmount": 4
-  },
-  "TraitData": {
-    "hasTraits": true
+    "feedAmount": 5
   }
 }

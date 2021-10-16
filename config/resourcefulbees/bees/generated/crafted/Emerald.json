@@ -6,25 +6,13 @@
     "honeycombColor": "#18eb09",
     "modelType": "ORE"
   },
-  "MutationData": {
-    "hasMutation": true,
-    "mutations": [{
-      "type": "BLOCK",
-      "inputID": "minecraft:stone",
-      "chance": 0.75,
-      "outputs": [{
-        "outputID": "minecraft:lava",
-        "weight": 10
-      }]
-    }]
-  },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
     "mainOutput": "minecraft:emerald"
   },
   "BreedData": {
     "isBreedable": true,
-    "spawnWeight": 4
-  },
-  "TraitData": {}
+    "feedItem": "minecraft:emerald",
+    "feedAmount": 5
+  }
 }

@@ -6,32 +6,11 @@
     "modelType": "CROP",
     "honeycombColor": "#F5DEB3"
   },
-  "CentrifugeData": {
-    "hasCentrifugeOutput": true,
-    "mainInputCount": 1,
-    "mainOutput": "bloodmagic:life_essence_fluid",
-    "mainOutputWeight": 0.1,
-    "mainOutputCount": 10,
-    "secondaryOutput": "vampirism:vampire_blood_bottle",
-    "secondaryOutputWeight": 0.1,
-    "secondaryOutputCount": 1,
-    "bottleOutput": "minecraft:honey_bottle",
-    "bottleOutputWeight": 0.25,
-    "bottleOutputCount": 1,
-    "recipeTime": 200,
-    "hasFluidOutput": true
-  },
   "SpawnData": {
     "canSpawnInWorld": true,
-    "biomeWhitelist": "tag:OVERWORLD",
+    "biomeWhitelist": "tag:overworld",
     "spawnWeight": 2,
-    "minYLevel": 0,
-    "maxYLevel": 255,
     "minGroupSize": 1,
-    "maxGroupSize": 2,
-    "lightLevel": "ANY"
-  },
-  "BreedData": {
-    "isBreedable": false
+    "maxGroupSize": 2
   }
 }
