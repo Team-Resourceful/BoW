@@ -42,7 +42,6 @@ onEvent('recipes', e => {
     I: '#forge:ingots/iron'
   }).id('kubejs:minecraft/hopper')
   e.shaped('16x minecraft:stick', ['L', 'L'], { 'L': '#minecraft:logs' }).id('kubejs:minecraft/sticks')
-  e.shaped('12x minecraft:grass', [' E ', 'E E'], { 'E': 'mysticalagriculture:nature_essence' }).id('kubejs:minecraft/grass')
   e.shaped('minecraft:white_wool', ['SS', 'SS'], { S: '#forge:string' })
   e.shaped('3x minecraft:glass', ['GGG', 'G G', 'GGG',], { G: 'minecraft:glass_pane' })
 

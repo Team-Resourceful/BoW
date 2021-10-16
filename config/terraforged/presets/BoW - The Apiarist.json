@@ -2,16 +2,16 @@
   "miscellaneous": {
     "smoothLayerDecorator": true,
     "strataRegionSize": 600,
-    "strataDecorator": true,
+    "strataDecorator": false,
     "oreCompatibleStoneOnly": true,
     "erosionDecorator": true,
     "plainStoneErosion": false,
     "naturalSnowDecorator": true,
     "customBiomeFeatures": true,
     "vanillaLakes": false,
-    "vanillaSprings": true,
-    "vanillaLavaLakes": true,
-    "vanillaLavaSprings": true,
+    "vanillaSprings": false,
+    "vanillaLavaLakes": false,
+    "vanillaLavaSprings": false,
     "mountainBiomeUsage": 0.4,
     "volcanoBiomeUsage": 0.4
   },
@@ -19,11 +19,11 @@
     "bedrockLayer": {
       "material": "minecraft:bedrock",
       "minDepth": 1,
-      "variance": 4
+      "variance": 0
     },
     "dimensions": {
-      "nether": "default",
-      "end": "default",
+      "nether": "byg:world",
+      "end": "byg:world",
       "includeExtraDimensions": true
     }
   },
@@ -794,19 +794,19 @@
       "continentType": "MULTI_IMPROVED",
       "continentShape": "EUCLIDEAN",
       "continentScale": 3000,
-      "continentJitter": 0.7,
+      "continentJitter": 0.699,
       "continentSkipping": 0.25,
       "continentSizeVariance": 0.25,
       "continentNoiseOctaves": 5,
-      "continentNoiseGain": 0.26,
-      "continentNoiseLacunarity": 4.33
+      "continentNoiseGain": 0.259,
+      "continentNoiseLacunarity": 4.328
     },
     "controlPoints": {
       "deepOcean": 0.1,
       "shallowOcean": 0.25,
-      "beach": 0.327,
+      "beach": 0.326,
       "coast": 0.448,
-      "inland": 0.502
+      "inland": 0.5
     },
     "properties": {
       "spawnType": "CONTINENT_CENTER",
@@ -931,7 +931,7 @@
     "lakes": {
       "chance": 0.3,
       "minStartDistance": 0.0,
-      "maxStartDistance": 0.03,
+      "maxStartDistance": 0.028,
       "depth": 10,
       "sizeMin": 75,
       "sizeMax": 150,
@@ -948,15 +948,15 @@
     "erosion": {
       "dropletsPerChunk": 135,
       "dropletLifetime": 12,
-      "dropletVolume": 0.7,
-      "dropletVelocity": 0.7,
+      "dropletVolume": 0.699,
+      "dropletVelocity": 0.699,
       "erosionRate": 0.5,
       "depositeRate": 0.5
     },
     "smoothing": {
       "iterations": 1,
-      "smoothingRadius": 1.8,
-      "smoothingRate": 0.9
+      "smoothingRadius": 1.799,
+      "smoothingRate": 0.898
     }
   }
 }
