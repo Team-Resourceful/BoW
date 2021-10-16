@@ -1,45 +1,67 @@
 {
-  "output": {
-      "item": "alltheores:ore_silver"
-  },
-  "rarity": [{
-          "whitelist": {},
-          "blacklist": {
-              "type": "minecraft:worldgen/biome",
-              "values": [
-                  "minecraft:the_end",
-                  "minecraft:the_void",
-                  "minecraft:small_end_islands",
-                  "minecraft:end_barrens",
-                  "minecraft:end_highlands",
-                  "minecraft:end_midlands"
-              ]
-          },
-          "depth_min": 10,
-          "depth_max": 40,
-          "weight": 5
-      },
-      {
-          "whitelist": {},
-          "blacklist": {
-              "type": "minecraft:worldgen/biome",
-              "values": [
-                  "minecraft:the_end",
-                  "minecraft:the_void",
-                  "minecraft:small_end_islands",
-                  "minecraft:end_barrens",
-                  "minecraft:end_highlands",
-                  "minecraft:end_midlands"
-              ]
-          },
-          "depth_min": 0,
-          "depth_max": 255,
-          "weight": 1
-      }
-  ],
-  "pointer": 0,
-  "catalyst": {
-      "item": "industrialforegoing:laser_lens7"
-  },
-  "type": "industrialforegoing:laser_drill_ore"
+	"output": {
+		"item": "thermal:silver_ore"
+	},
+	"rarity": [{
+			"whitelist": {},
+			"blacklist": {
+				"type": "minecraft:worldgen/biome",
+				"values": [
+					"minecraft:the_end",
+					"minecraft:small_end_islands",
+					"minecraft:end_midlands",
+					"minecraft:end_highlands",
+					"minecraft:end_barrens",
+					"byg:ivis_fields",
+					"byg:bulbis_gardens",
+					"byg:bulbis_gardens_edge",
+					"byg:shattered_desert",
+					"byg:ethereal_islands",
+					"byg:purpur_peaks",
+					"byg:cryptic_wastes",
+					"byg:viscal_isles",
+					"byg:shattered_viscal_isles",
+					"byg:shulkren_forest",
+					"byg:nightshade_forest",
+					"biomesoplenty:spectral_garden"
+				]
+			},
+			"depth_min": 10,
+			"depth_max": 40,
+			"weight": 5
+		},
+		{
+			"whitelist": {},
+			"blacklist": {
+				"type": "minecraft:worldgen/biome",
+				"values": [
+					"minecraft:the_end",
+					"minecraft:small_end_islands",
+					"minecraft:end_midlands",
+					"minecraft:end_highlands",
+					"minecraft:end_barrens",
+					"byg:ivis_fields",
+					"byg:bulbis_gardens",
+					"byg:bulbis_gardens_edge",
+					"byg:shattered_desert",
+					"byg:ethereal_islands",
+					"byg:purpur_peaks",
+					"byg:cryptic_wastes",
+					"byg:viscal_isles",
+					"byg:shattered_viscal_isles",
+					"byg:shulkren_forest",
+					"byg:nightshade_forest",
+					"biomesoplenty:spectral_garden"
+				]
+			},
+			"depth_min": 0,
+			"depth_max": 255,
+			"weight": 1
+		}
+	],
+	"pointer": 0,
+	"catalyst": {
+		"item": "industrialforegoing:laser_lens7"
+	},
+	"type": "industrialforegoing:laser_drill_ore"
 }

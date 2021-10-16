@@ -15,6 +15,12 @@
     "byg:baobab_savanna",
     "byg:shrublands",
     "byg:prairie_clearing",
-    "byg:redwood_clearing"
+    "byg:redwood_clearing",
+    "biomesoplenty:dead_forest",
+    "biomesoplenty:lush_desert",
+    "biomesoplenty:shrubland",
+    "biomesoplenty:wasteland",
+    "biomesoplenty:wooded_wasteland",
+    "biomesoplenty:fir_clearing"
   ]
 }

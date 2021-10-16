@@ -44,6 +44,16 @@
     "byg:snowy_evergreen_clearing",
     "byg:snowy_evergreen_hills",
     "byg:zelkova_clearing",
-    "byg:zelkova_forest_hills"
+    "byg:zelkova_forest_hills",
+    "biomesoplenty:coniferous_forest",
+    "biomesoplenty:redwood_forest",
+    "biomesoplenty:snowy_coniferous_forest",
+    "biomesoplenty:redwood_forest_edge",
+    "biomesoplenty:coniferous_lakes",
+    "biomesoplenty:fir_clearing",
+    "biomesoplenty:redwood_hills",
+    "biomesoplenty:snowy_fir_clearing",
+    "terraforged:fir_forest",
+    "terraforged:snowy_fir_forest"
   ]
 }

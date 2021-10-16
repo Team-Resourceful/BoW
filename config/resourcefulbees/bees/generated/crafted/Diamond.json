@@ -8,16 +8,15 @@
   },
   "MutationData": {
     "hasMutation": true,
-    "mutations" : [
-      {
-        "type": "BLOCK",
-        "inputID": "minecraft:lava",
-        "chance": 0.75,
-        "outputs": [
-          {"outputID": "minecraft:water", "weight": 10}
-        ]
-      }
-    ]
+    "mutations": [{
+      "type": "BLOCK",
+      "inputID": "minecraft:lava",
+      "chance": 0.75,
+      "outputs": [{
+        "outputID": "minecraft:water",
+        "weight": 10
+      }]
+    }]
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,

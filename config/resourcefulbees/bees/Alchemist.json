@@ -20,12 +20,10 @@
   "MutationData": {
     "hasMutation": true,
     "mutationCount": 1,
-    "mutations": [
-      {
+    "mutations": [{
         "type": "BLOCK_TO_ITEM",
         "inputID": "resourcefulbees:alchemist_honeycomb_block",
-        "outputs": [
-          {
+        "outputs": [{
             "outputID": "resourcefulbees:alchemist_honeycomb",
             "weight": 80
           },
@@ -41,8 +39,7 @@
       {
         "type": "ENTITY_TO_ENTITY",
         "inputID": "minecraft:witch",
-        "outputs": [
-          {
+        "outputs": [{
             "outputID": "minecraft:witch",
             "weight": 80
           },

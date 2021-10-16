@@ -1,6 +1,10 @@
 {
   "biomes": [
     "minecraft:mushroom_fields",
-    "minecraft:mushroom_field_shore"
+    "minecraft:mushroom_field_shore",
+    "biomesoplenty:fungal_jungle",
+    "biomesoplenty:mystic_grove",
+    "biomesoplenty:fungal_field",
+    "biomesoplenty:overgrown_fungal_jungle"
   ]
 }

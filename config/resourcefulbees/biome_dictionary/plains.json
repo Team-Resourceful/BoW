@@ -22,6 +22,21 @@
     "byg:flowering_meadow",
     "byg:prairie_clearing",
     "byg:wooded_grassland_plateau",
-    "byg:wooded_meadow"
+    "byg:wooded_meadow",
+    "biomesoplenty:lavender_field",
+    "biomesoplenty:meadow",
+    "biomesoplenty:prairie",
+    "biomesoplenty:flower_meadow",
+    "biomesoplenty:highland_moor",
+    "biomesoplenty:mystic_plains",
+    "biomesoplenty:ominous_mire",
+    "biomesoplenty:golden_prairie",
+    "biomesoplenty:seasonal_pumpkin_patch",
+    "biomesoplenty:rainforest_floodplain",
+    "biomesoplenty:tropic_plains",
+    "biomesoplenty:origin_valley",
+    "terraforged:steppe",
+    "terraforged:cold_steppe",
+    "terraforged:flower_plains"
   ]
 }

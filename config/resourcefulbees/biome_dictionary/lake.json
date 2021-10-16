@@ -9,6 +9,8 @@
     "byg:great_lakes",
     "byg:grove_lakes",
     "terraforged:lake",
-    "byg:polluted_lake"
+    "byg:polluted_lake",
+    "biomesoplenty:coniferous_lakes",
+    "biomesoplenty:grove_lakes"
   ]
 }

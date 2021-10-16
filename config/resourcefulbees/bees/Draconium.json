@@ -1,8 +1,6 @@
 {
   "flower": "draconicevolution:wyvern_crafting_injector",
-  "traits": [
-    "draconic"
-  ],
+  "traits": ["draconic"],
   "hasHoneycomb": true,
   "baseLayerTexture": "dragon/dragon_bee_primary",
   "ColorData": {
@@ -24,12 +22,10 @@
   "MutationData": {
     "hasMutation": true,
     "mutationCount": 1,
-    "mutations": [
-      {
+    "mutations": [{
         "type": "BLOCK_TO_ITEM",
         "inputID": "draconicevolution:awakened_crafting_injector",
-        "outputs": [
-          {
+        "outputs": [{
             "outputID": "draconicevolution:awakened_draconium_nugget",
             "weight": 80
           },
@@ -47,8 +43,7 @@
       {
         "type": "ENTITY_TO_ENTITY",
         "inputID": "minecraft:witch",
-        "outputs": [
-          {
+        "outputs": [{
             "outputID": "minecraft:witch",
             "weight": 80
           },

@@ -1,44 +1,71 @@
 {
-  "output": {
-      "item": "alltheores:ore_uranium"
-  },
-  "rarity": [{
-          "whitelist": {
-              "type": "minecraft:worldgen/biome",
-              "values": [
-                  "minecraft:nether_wastes",
-                  "minecraft:basalt_deltas",
-                  "minecraft:warped_forest",
-                  "minecraft:crimson_forest",
-                  "minecraft:soul_sand_valley"
-              ]
-          },
-          "blacklist": {},
-          "depth_min": 5,
-          "depth_max": 29,
-          "weight": 5
-      },
-      {
-          "whitelist": {},
-          "blacklist": {
-              "type": "minecraft:worldgen/biome",
-              "values": [
-                  "minecraft:the_end",
-                  "minecraft:the_void",
-                  "minecraft:small_end_islands",
-                  "minecraft:end_barrens",
-                  "minecraft:end_highlands",
-                  "minecraft:end_midlands"
-              ]
-          },
-          "depth_min": 0,
-          "depth_max": 255,
-          "weight": 1
-      }
-  ],
-  "pointer": 0,
-  "catalyst": {
-      "item": "industrialforegoing:laser_lens5"
-  },
-  "type": "industrialforegoing:laser_drill_ore"
+	"output": {
+		"item": "immersiveengineering:ore_uranium"
+	},
+	"rarity": [{
+			"whitelist": {
+				"type": "minecraft:worldgen/biome",
+				"values": [
+					"minecraft:nether_wastes",
+					"minecraft:soul_sand_valley",
+					"minecraft:crimson_forest",
+					"minecraft:warped_forest",
+					"minecraft:basalt_deltas",
+					"byg:warped_desert",
+					"byg:embur_bog",
+					"byg:sythian_torrids",
+					"byg:glowstone_gardens",
+					"byg:subzero_hypogeal",
+					"byg:quartz_desert",
+					"byg:brimstone_caverns",
+					"byg:weeping_mire",
+					"byg:withering_woods",
+					"byg:magma_wastes",
+					"byg:wailing_garth",
+					"byg:crimson_gardens",
+					"biomesoplenty:crystalline_chasm",
+					"biomesoplenty:undergrowth",
+					"biomesoplenty:visceral_heap",
+					"biomesoplenty:withered_abyss"
+				]
+			},
+			"blacklist": {},
+			"depth_min": 5,
+			"depth_max": 29,
+			"weight": 5
+		},
+		{
+			"whitelist": {
+				"type": "minecraft:worldgen/biome",
+				"values": [
+					"minecraft:the_end",
+					"minecraft:small_end_islands",
+					"minecraft:end_midlands",
+					"minecraft:end_highlands",
+					"minecraft:end_barrens",
+					"byg:ivis_fields",
+					"byg:bulbis_gardens",
+					"byg:bulbis_gardens_edge",
+					"byg:shattered_desert",
+					"byg:ethereal_islands",
+					"byg:purpur_peaks",
+					"byg:cryptic_wastes",
+					"byg:viscal_isles",
+					"byg:shattered_viscal_isles",
+					"byg:shulkren_forest",
+					"byg:nightshade_forest",
+					"biomesoplenty:spectral_garden"
+				]
+			},
+			"blacklist": {},
+			"depth_min": 0,
+			"depth_max": 255,
+			"weight": 1
+		}
+	],
+	"pointer": 0,
+	"catalyst": {
+		"item": "industrialforegoing:laser_lens5"
+	},
+	"type": "industrialforegoing:laser_drill_ore"
 }

@@ -30,7 +30,6 @@ onEvent('recipes', e => {
     ['CC ', '  C', '   ']
   ] // 25 now
   let dyes = []
-  let botaniaFlowers = []
   let honey = ['resourcefulbees:honey', 'create:honey']
   let customHoney = ['resourcefulbees:rainbow_honey', 'resourcefulbees:catnip_honey']
 
@@ -54,10 +53,7 @@ onEvent('recipes', e => {
 
   colors.forEach(color => {
     dyes.push(`minecraft:${color}_dye`)
-    botaniaFlowers.push(`botania:${color}_mystical_flower`)
   })
-
-  e.recipes.thermal.chiller('resourcefulbees:starry_honey_block', fluid.of('resourcefulbees:starry_honey', 1000))
 
   honey.forEach(type => e.recipes.thermal.chiller('minecraft:honey_block', fluid.of(`${type}`, 1000)))
   customHoney.forEach(type => {
@@ -66,12 +62,8 @@ onEvent('recipes', e => {
   })
 
   shapedRecipe(dyes, 'resourcefulbees:rainbow_honey_block', 32)
-  shapedRecipe(botaniaFlowers, 'resourcefulbees:mystical_honeycomb', 2)
-  shapedRecipe(botaniaFlowers, 'resourcefulbees:mystical_honeycomb_block', 18)
   shapedRecipe(['minecraft:andesite', 'minecraft:diorite', 'minecraft:granite', 'minecraft:basalt', 'create:gabbro', 'create:dolomite', 'create:weathered_limestone', 'create:limestone', 'create:scoria', 'create:dark_scoria', 'quark:brimstone', 'quark:slate', 'quark:jasper', 'quark:limestone', 'quark:basalt', 'astralsorcery:marble_raw'], 'resourcefulbees:stan_honeycomb', 2)
   shapedRecipe(['minecraft:andesite', 'minecraft:diorite', 'minecraft:granite', 'minecraft:basalt', 'create:gabbro', 'create:dolomite', 'create:weathered_limestone', 'create:limestone', 'create:scoria', 'create:dark_scoria', 'quark:brimstone', 'quark:slate', 'quark:jasper', 'quark:limestone', 'quark:basalt', 'astralsorcery:marble_raw'], 'resourcefulbees:stan_honeycomb_block', 18)
-  shapedRecipe(['minecraft:oak_log', 'minecraft:spruce_log', 'minecraft:birch_log', 'minecraft:jungle_log', 'minecraft:acacia_log', 'minecraft:dark_oak_log', 'minecraft:crimson_stem', 'minecraft:warped_stem'], 'resourcefulbees:lumber_honeycomb', 3)
-  shapedRecipe(['minecraft:oak_log', 'minecraft:spruce_log', 'minecraft:birch_log', 'minecraft:jungle_log', 'minecraft:acacia_log', 'minecraft:dark_oak_log', 'minecraft:crimson_stem', 'minecraft:warped_stem'], 'resourcefulbees:lumber_honeycomb_block', 27)
   shapedRecipe(['witchery_rewitched:belladonna', 'witchery_rewitched:garlic', 'witchery_rewitched:icy_needle', 'witchery_rewitched:water_artichoke_bulb', 'witchery_rewitched:wolfsbane', 'witchery_rewitched:mandrake_root'], 'resourcefulbees:beewitched_honeycomb', 3)
   shapedRecipe(['witchery_rewitched:belladonna', 'witchery_rewitched:garlic', 'witchery_rewitched:icy_needle', 'witchery_rewitched:water_artichoke_bulb', 'witchery_rewitched:wolfsbane', 'witchery_rewitched:mandrake_root'], 'resourcefulbees:beewitched_honeycomb_block', 27)
   shapedRecipe([

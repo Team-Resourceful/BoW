@@ -10,6 +10,14 @@
     "byg:vibrant_swamplands",
     "byg:bog",
     "byg:coral_mangroves",
-    "byg:marshlands"
+    "byg:marshlands",
+    "biomesoplenty:bayou",
+    "biomesoplenty:wetland",
+    "biomesoplenty:deep_bayou",
+    "biomesoplenty:bayou_mangrove",
+    "biomesoplenty:wetland_marsh",
+    "terraforged:marshland",
+    "terraforged:cold_marshland",
+    "terraforged:frozen_marsh"
   ]
 }

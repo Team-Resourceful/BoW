@@ -39,6 +39,14 @@
     "byg:tropical_fungal_rainforest_hills",
     "byg:tropical_rainforest_hills",
     "byg:twilight_valley_hills",
-    "byg:zelkova_forest_hills"
+    "byg:zelkova_forest_hills",
+    "biomesoplenty:highland",
+    "biomesoplenty:jade_cliffs",
+    "biomesoplenty:highland_moor",
+    "biomesoplenty:jade_grassland",
+    "biomesoplenty:redwood_hills",
+    "biomesoplenty:shrubland_hills",
+    "biomesoplenty:rainbow_hills",
+    "vampirism:vampire_forest_hills"
   ]
 }
