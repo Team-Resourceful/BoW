@@ -3,7 +3,5 @@ onEvent('recipes', e => {
 		A: '#forge:string',
 		B: ['minecraft:leather', 'minecraft:rabbit_hide'],
 		C: '#quark:seed_pouch_holdable'
-	}).id('kubejs:quark/seed_pouch')
-
-	removeRecipeByOutput(e, ['quark:seed_pouch'])
+	}).id('quark:tools/crafting/seed_pouch')
 })
