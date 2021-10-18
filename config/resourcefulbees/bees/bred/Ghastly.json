@@ -1,0 +1,30 @@
+{
+  "flower": "tag:misctags:flowers/nether_flowers",
+  "maxTimeInHive": 3600,
+  "traits": ["nether"],
+  "hasHoneycomb": true,
+  "baseLayerTexture": "misc/ghost_bee",
+  "ColorData": {
+    "honeycombColor": "#B7C7C7",
+    "modelType": "DEFAULT"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "minecraft:ghast_tear",
+    "mainOutputWeight": 0.50,
+    "secondaryOutput": "minecraft:gunpowder",
+    "secondaryOutputWeight": 0.10,
+    "secondaryOutputCount": 2
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "Beeper",
+    "parent2": "Magma",
+    "breedChance": 0.75,
+    "feedItem": "xreliquary:catalyzing_gland",
+    "feedAmount": 5
+  },
+  "TraitData": {
+    "hasTraits": true
+  }
+}

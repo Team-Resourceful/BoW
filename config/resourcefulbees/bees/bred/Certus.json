@@ -1,0 +1,35 @@
+{
+  "flower": "appliedenergistics2:quartz_block",
+  "maxTimeInHive": 2400,
+  "hasHoneycomb": true,
+  "baseLayerTexture": "misc/certus_bee",
+  "ColorData": {
+    "honeycombColor": "#d2d6f7",
+    "modelType": "ORE"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainInputCount": 1,
+    "mainOutput": "appliedenergistics2:quartz_ore",
+    "mainOutputWeight": 0.50,
+    "mainOutputCount": 1,
+    "secondaryOutput": "appliedenergistics2:certus_quartz_crystal",
+    "secondaryOutputWeight": 0.20,
+    "secondaryOutputCount": 2,
+    "bottleOutput": "minecraft:honey_bottle",
+    "bottleOutputWeight": 0.25,
+    "bottleOutputCount": 1,
+    "recipeTime": 200
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "Quartz",
+    "parent2": "Copper",
+    "breedWeight": 10,
+    "breedChance": 0.75,
+    "feedItem": "appliedenergistics2:quartz_block",
+    "feedAmount": 5,
+    "childGrowthDelay": -24000,
+    "breedDelay": 6000
+  }
+}
