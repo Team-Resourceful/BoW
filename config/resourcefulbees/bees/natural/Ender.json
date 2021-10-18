@@ -1,51 +1,34 @@
 {
   "flower": "minecraft:chorus_flower",
-  "traits": [
-    "ender"
-  ],
+  "traits": ["ender"],
   "hasHoneycomb": true,
-  "baseLayerTexture": "/custom/bee",
   "ColorData": {
     "primaryColor": "#339786",
     "secondaryColor": "#303030",
     "honeycombColor": "#339786",
     "primaryLayerTexture": "/custom/primary_layer",
     "secondaryLayerTexture": "/custom/secondary_layer",
-    "isBeeColored": true,
-    "modelType": "DEFAULT"
+    "isBeeColored": true
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
-    "mainInputCount": 1,
     "mainOutput": "minecraft:ender_pearl",
     "mainOutputWeight": 0.5,
-    "mainOutputCount": 1,
     "secondaryOutput": "xreliquary:nebulous_heart",
-    "secondaryOutputWeight": 0.02,
-    "secondaryOutputCount": 1,
-    "bottleOutput": "minecraft:honey_bottle",
-    "bottleOutputWeight": 0.25,
-    "bottleOutputCount": 1,
-    "recipeTime": 200
+    "secondaryOutputWeight": 0.02
   },
   "SpawnData": {
     "canSpawnInWorld": true,
     "biomeWhitelist": "tag:end",
     "spawnWeight": 5,
-    "minYLevel": 0,
-    "maxYLevel": 255,
     "minGroupSize": 1,
-    "maxGroupSize": 2,
-    "lightLevel": "ANY"
+    "maxGroupSize": 2
   },
   "BreedData": {
     "isBreedable": true,
-    "breedWeight": 10,
     "breedChance": 0.75,
     "feedItem": "xreliquary:nebulous_heart",
-    "feedAmount": 5,
-    "childGrowthDelay": -24000,
-    "breedDelay": 6000
+    "feedAmount": 5
   },
   "TraitData": {
     "hasTraits": true

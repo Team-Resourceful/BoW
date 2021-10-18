@@ -19,24 +19,23 @@
     "hasMutation": true,
     "mutationCount": 1,
     "mutations": [{
-        "type": "BLOCK_TO_ITEM",
-        "inputID": "draconicevolution:awakened_crafting_injector",
-        "outputs": [{
-            "outputID": "draconicevolution:awakened_draconium_nugget",
-            "weight": 80
+      "type": "BLOCK_TO_ITEM",
+      "inputID": "draconicevolution:awakened_crafting_injector",
+      "outputs": [{
+          "outputID": "draconicevolution:awakened_draconium_nugget",
+          "weight": 80
+        },
+        {
+          "outputID": "resourcefulbees:bee_jar",
+          "nbtData": {
+            "Entity": "resourcefulbees:awakened_bee",
+            "BeeType": "awakened",
+            "Color": "#FF4C00"
           },
-          {
-            "outputID": "resourcefulbees:bee_jar",
-            "nbtData": {
-              "Entity": "resourcefulbees:awakened_bee",
-              "BeeType": "awakened",
-              "Color": "#FF4C00"
-            },
-            "weight": 20
-          }
-        ]
-      }
-    ]
+          "weight": 20
+        }
+      ]
+    }]
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,

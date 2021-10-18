@@ -20,17 +20,11 @@
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
-    "mainInputCount": 1,
     "mainOutput": "minecraft:slime_ball",
     "mainOutputWeight": 0.5,
     "mainOutputCount": 2,
     "secondaryOutput": "xreliquary:slime_pearl",
-    "secondaryOutputWeight": 0.01,
-    "secondaryOutputCount": 2,
-    "bottleOutput": "minecraft:honey_bottle",
-    "bottleOutputWeight": 0.25,
-    "bottleOutputCount": 1,
-    "recipeTime": 200
+    "secondaryOutputWeight": 0.01
   },
   "SpawnData": {
     "canSpawnInWorld": true,

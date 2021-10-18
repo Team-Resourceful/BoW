@@ -22,7 +22,6 @@
     "isBreedable": true,
     "parent1": "Zombie",
     "parent2": "Skeleton",
-    "breedWeight": 10,
     "breedChance": 0.75,
     "feedItem": "tombstone:grave_dust",
     "feedAmount": 5

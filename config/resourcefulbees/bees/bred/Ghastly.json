@@ -5,8 +5,7 @@
   "hasHoneycomb": true,
   "baseLayerTexture": "misc/ghost_bee",
   "ColorData": {
-    "honeycombColor": "#B7C7C7",
-    "modelType": "DEFAULT"
+    "honeycombColor": "#B7C7C7"
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,

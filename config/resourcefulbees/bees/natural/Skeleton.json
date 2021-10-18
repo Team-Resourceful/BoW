@@ -4,41 +4,27 @@
   "hasHoneycomb": true,
   "baseLayerTexture": "/skeleton/skeleton_bee",
   "ColorData": {
-    "honeycombColor": "#F6F2E6",
-    "modelType": "DEFAULT"
+    "honeycombColor": "#F6F2E6"
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
-    "mainInputCount": 1,
     "mainOutput": "minecraft:bone",
     "mainOutputWeight": 0.5,
-    "mainOutputCount": 1,
     "secondaryOutput": "xreliquary:rib_bone",
-    "secondaryOutputWeight": 0.01,
-    "secondaryOutputCount": 2,
-    "bottleOutput": "minecraft:honey_bottle",
-    "bottleOutputWeight": 0.25,
-    "bottleOutputCount": 1,
-    "recipeTime": 200
+    "secondaryOutputWeight": 0.01
   },
   "SpawnData": {
     "canSpawnInWorld": true,
     "biomeWhitelist": "tag:overworld",
     "biomeBlacklist": "tag:ocean",
     "spawnWeight": 5,
-    "minYLevel": 0,
-    "maxYLevel": 255,
     "minGroupSize": 1,
-    "maxGroupSize": 2,
-    "lightLevel": "ANY"
+    "maxGroupSize": 2
   },
   "BreedData": {
     "isBreedable": true,
-    "breedWeight": 10,
     "breedChance": 0.8,
     "feedItem": "xreliquary:rib_bone",
-    "feedAmount": 5,
-    "childGrowthDelay": -24000,
-    "breedDelay": 6000
+    "feedAmount": 5
   }
 }

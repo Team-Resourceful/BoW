@@ -1,11 +1,7 @@
 {
   "flower": "tag:misctags:flowers/glowing_flowers",
-  "traits": [
-    "nether",
-    "pigman"
-  ],
+  "traits": ["nether", "pigman"],
   "hasHoneycomb": true,
-  "baseLayerTexture": "/custom/bee",
   "ColorData": {
     "primaryColor": "#D6D30D",
     "secondaryColor": "#D6D30D",
@@ -15,41 +11,26 @@
     "emissiveLayerTexture": "/custom/emissive_layer",
     "isBeeColored": true,
     "isGlowing": true,
-    "glowColor": "#D6D30D",
-    "modelType": "DEFAULT"
+    "glowColor": "#D6D30D"
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
-    "mainInputCount": 1,
     "mainOutput": "minecraft:glowstone_dust",
     "mainOutputWeight": 0.5,
-    "mainOutputCount": 1,
-    "secondaryOutput": "resourcefulbees:wax",
-    "secondaryOutputWeight": 0.2,
-    "secondaryOutputCount": 1,
-    "bottleOutput": "minecraft:honey_bottle",
-    "bottleOutputWeight": 0.25,
-    "bottleOutputCount": 1,
-    "recipeTime": 200
+    "secondaryOutputWeight": 0.2
   },
   "SpawnData": {
     "canSpawnInWorld": true,
     "biomeWhitelist": "tag:nether",
     "spawnWeight": 5,
-    "minYLevel": 0,
-    "maxYLevel": 255,
     "minGroupSize": 1,
-    "maxGroupSize": 2,
-    "lightLevel": "ANY"
+    "maxGroupSize": 2
   },
   "BreedData": {
     "isBreedable": true,
-    "breedWeight": 10,
     "breedChance": 0.75,
     "feedItem": "tag:misctags:flowers/glowing_flowers",
-    "feedAmount": 5,
-    "childGrowthDelay": -24000,
-    "breedDelay": 6000
+    "feedAmount": 5
   },
   "TraitData": {
     "hasTraits": true

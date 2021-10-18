@@ -1,14 +1,14 @@
 {
-    "flower": "eidolon:crucible",
-    "creator": "NoControl, Dawn Felstar",
-    "lore": "Double, double toil and trouble;\nfire burn and cauldron bubble.",
-    "loreColor": "#326847",
-    "hasHoneycomb": true,
-    "baseLayerTexture" : "misc/beewitched_bee",
-    "ColorData": {
-    "modelType" : "WITCH",
-    "honeycombColor": "#326847",
-    "isGlowing": true,
-    "emissiveLayerTexture": "misc/beewitched_bee_emissive"
-    }
+	"flower": "eidolon:crucible",
+	"creator": "NoControl, Dawn Felstar",
+	"lore": "Double, double toil and trouble;\nfire burn and cauldron bubble.",
+	"loreColor": "#326847",
+	"hasHoneycomb": true,
+	"baseLayerTexture": "misc/beewitched_bee",
+	"ColorData": {
+		"modelType": "WITCH",
+		"honeycombColor": "#326847",
+		"isGlowing": true,
+		"emissiveLayerTexture": "misc/beewitched_bee_emissive"
+	}
 }

@@ -14,10 +14,9 @@
       "type": "BLOCK_TO_BLOCK",
       "inputID": "minecraft:blackstone",
       "outputs": [{
-          "outputID": "minecraft:gilded_blackstone",
-          "weight": 20
-        }
-      ]
+        "outputID": "minecraft:gilded_blackstone",
+        "weight": 20
+      }]
     }]
   },
   "BreedData": {

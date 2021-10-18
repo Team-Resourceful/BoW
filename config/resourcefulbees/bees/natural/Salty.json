@@ -1,29 +1,29 @@
 {
-  "flower": "tag:forge:dirt",
+  "flower": "mekanism:block_salt",
   "traits": ["can_swim"],
   "hasHoneycomb": true,
-  "baseLayerTexture": "misc/dirty_bee",
+  "baseLayerTexture": "misc/salt_baee",
   "ColorData": {
-    "honeycombColor": "#79553A"
+    "honeycombColor": "#f3f8e3"
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
-    "mainOutput": "minecraft:dirt",
+    "mainOutput": "mekanism:salt",
     "mainOutputWeight": 0.5,
-    "mainOutputCount": 16,
+    "mainOutputCount": 3,
     "secondaryOutputWeight": 0.2
   },
   "SpawnData": {
     "canSpawnInWorld": true,
-    "biomeWhitelist": "tag:overworld",
-    "spawnWeight": 2,
+    "biomeWhitelist": "tag:lake",
+    "spawnWeight": 10,
     "minGroupSize": 1,
     "maxGroupSize": 2
   },
   "BreedData": {
     "isBreedable": true,
-    "breedChance": 0.75,
-    "feedItem": "tag:forge:dirt",
+    "breedChance": 0.8,
+    "feedItem": "mekanism:block_salt",
     "feedAmount": 5
   },
   "TraitData": {

@@ -1,22 +1,10 @@
 {
   "flower": "allthecompressed:atm_star_block",
-  "traits": [
-    "starry"
-  ],
+  "traits": ["starry"],
   "sizeModifier": 1.25,
   "hasHoneycomb": true,
-  "apiaryOutputAmounts": [
-    1,
-    1,
-    1,
-    1
-  ],
-  "apiaryOutputTypes": [
-    "COMB",
-    "COMB",
-    "COMB",
-    "COMB"
-  ],
+  "apiaryOutputAmounts": [1, 1, 1, 1],
+  "apiaryOutputTypes": ["COMB", "COMB", "COMB", "COMB"],
   "baseLayerTexture": "special/starry_bee_primary_layer",
   "ColorData": {
     "primaryColor": "#FFA500",
@@ -41,22 +29,19 @@
   "MutationData": {
     "hasMutation": true,
     "mutationCount": 1,
-    "mutations": [
-      {
-        "type": "BLOCK_TO_ITEM",
-        "inputID": "resourcefulbees:starry_honey_block",
-        "outputs": [
-          {
-            "outputID": "atmadditions:atm_star",
-            "weight": 50
-          },
-          {
-            "outputID": "kubejs:patrick_star",
-            "weight": 50
-          }
-        ]
-      }
-    ]
+    "mutations": [{
+      "type": "BLOCK_TO_ITEM",
+      "inputID": "resourcefulbees:starry_honey_block",
+      "outputs": [{
+          "outputID": "atmadditions:atm_star",
+          "weight": 50
+        },
+        {
+          "outputID": "kubejs:patrick_star",
+          "weight": 50
+        }
+      ]
+    }]
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
@@ -66,11 +51,8 @@
     "mainOutputCount": 50,
     "secondaryOutput": "kubejs:patrick_star",
     "secondaryOutputWeight": 0.99,
-    "secondaryOutputCount": 1,
     "bottleOutput": "minecraft:honey_bottle",
     "bottleOutputWeight": 0.1,
-    "bottleOutputCount": 1,
-    "recipeTime": 200,
     "hasFluidOutput": true
   }
 }

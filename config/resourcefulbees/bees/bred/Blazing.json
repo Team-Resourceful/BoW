@@ -1,45 +1,30 @@
 {
   "flower": "botania:blaze_block",
   "maxTimeInHive": 2400,
-  "traits": [
-    "blaze",
-    "nether"
-  ],
+  "traits": ["blaze", "nether"],
   "hasHoneycomb": true,
-  "baseLayerTexture": "/custom/bee",
   "ColorData": {
     "primaryColor": "#BD5900",
     "secondaryColor": "#BD5900",
     "honeycombColor": "#BD5900",
     "primaryLayerTexture": "/custom/primary_layer",
     "secondaryLayerTexture": "/custom/secondary_layer",
-    "isBeeColored": true,
-    "modelType": "DEFAULT"
+    "isBeeColored": true
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
-    "mainInputCount": 1,
     "mainOutput": "minecraft:blaze_rod",
     "mainOutputWeight": 0.50,
-    "mainOutputCount": 1,
     "secondaryOutput": "xreliquary:molten_core",
-    "secondaryOutputWeight": 0.02,
-    "secondaryOutputCount": 2,
-    "bottleOutput": "minecraft:honey_bottle",
-    "bottleOutputWeight": 0.25,
-    "bottleOutputCount": 1,
-    "recipeTime": 200
+    "secondaryOutputWeight": 0.02
   },
   "BreedData": {
     "isBreedable": true,
     "parent1": "Magma",
     "parent2": "Skeleton",
-    "breedWeight": 10,
     "breedChance": 0.75,
     "feedItem": "xreliquary:molten_core",
-    "feedAmount": 5,
-    "childGrowthDelay": -24000,
-    "breedDelay": 6000
+    "feedAmount": 5
   },
   "TraitData": {
     "hasTraits": true

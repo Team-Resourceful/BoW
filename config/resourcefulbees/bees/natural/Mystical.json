@@ -1,5 +1,6 @@
 {
-  "flower": "botania:livingrock",  "hasHoneycomb": true,
+  "flower": "botania:livingrock",
+  "hasHoneycomb": true,
   "baseLayerTexture": "misc/mystical_bee",
   "ColorData": {
     "primaryColor": "#5cea30",
@@ -15,19 +16,13 @@
     "canSpawnInWorld": true,
     "biomeWhitelist": "tag:mystical",
     "spawnWeight": 5,
-    "minYLevel": 0,
-    "maxYLevel": 255,
     "minGroupSize": 1,
-    "maxGroupSize": 2,
-    "lightLevel": "ANY"
+    "maxGroupSize": 2
   },
   "BreedData": {
     "isBreedable": true,
-    "breedWeight": 10,
     "breedChance": 0.75,
     "feedItem": "tag:botania:mystical_flowers",
-    "feedAmount": 5,
-    "childGrowthDelay": -24000,
-    "breedDelay": 6000
+    "feedAmount": 5
   }
 }

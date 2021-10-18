@@ -1,33 +1,26 @@
 {
   "flower": "cookingforblockheads:fridge",
   "hasHoneycomb": true,
-  "baseLayerTexture": "/custom/bee",
   "ColorData": {
     "primaryColor": "#FF6666",
     "secondaryColor": "#663300",
     "honeycombColor": "#FF6666",
     "primaryLayerTexture": "/custom/primary_layer",
     "secondaryLayerTexture": "/custom/secondary_layer",
-    "isBeeColored": true,
-    "modelType": "DEFAULT"
+    "isBeeColored": true
   },
   "SpawnData": {
     "canSpawnInWorld": true,
-    "biomeWhitelist": "tag:kobeebeef",
+    "biomeWhitelist": "tag:overworld",
+    "biomeBlacklist": "tag:ocean",
     "spawnWeight": 5,
-    "minYLevel": 0,
-    "maxYLevel": 255,
     "minGroupSize": 1,
-    "maxGroupSize": 2,
-    "lightLevel": "ANY"
+    "maxGroupSize": 2
   },
   "BreedData": {
     "isBreedable": true,
-    "breedWeight": 10,
     "breedChance": 0.75,
     "feedItem": "minecraft:beef",
-    "feedAmount": 5,
-    "childGrowthDelay": -24000,
-    "breedDelay": 6000
+    "feedAmount": 5
   }
 }
