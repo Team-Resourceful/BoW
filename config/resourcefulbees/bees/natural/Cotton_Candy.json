@@ -1,0 +1,66 @@
+{
+  "flower": "thermal:sugar_cane_block",
+  "creator": "NoControl, Dawn Felstar",
+  "lore": "Not because I want to be different,\nbut because I want to be myself.",
+  "loreColor": "#F7A8B8",
+  "hasHoneycomb": true,
+  "baseLayerTexture": "misc/cotton_candy_bee",
+  "ColorData": {
+    "modelType": "CROP",
+    "honeycombColor": "#55CDFC",
+    "isGlowing": true,
+    "emissiveLayerTexture": "misc/cotton_candy_bee_emissive"
+  },
+  "MutationData": {
+    "hasMutation": true,
+    "mutationCount": 1,
+    "mutations": [
+      {
+        "type": "ENTITY_TO_ENTITY",
+        "inputID": "minecraft:witch",
+        "outputs": [{
+            "outputID": "minecraft:witch",
+            "weight": 75
+          },
+          {
+            "outputID": "resourcefulbees:beewitched_bee",
+            "weight": 25
+          }
+        ]
+      },
+      {
+        "type": "ENTITY_TO_ENTITY",
+        "inputID": "vampirism:vampire",
+        "outputs": [{
+            "outputID": "vampirism:vampire",
+            "weight": 75
+          },
+          {
+            "outputID": "resourcefulbees:vampire_bee",
+            "weight": 25
+          }
+        ]
+      }
+    ]
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainInputCount": 4,
+    "mainOutput": "minecraft:sugar",
+    "mainOutputWeight": 0.10,
+    "secondaryOutput": "minecraft:sugar"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": true,
+    "biomeWhitelist": "byg:pumpkin_forest",
+    "spawnWeight": 5,
+    "minGroupSize": 1,
+    "maxGroupSize": 3
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "breedChance": 0.75,
+    "feedItem": "minecraft:sugar",
+    "feedAmount": 5
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "flower": "draconicevolution:chaotic_crafting_injector",
+  "traits": ["chaotic"],
+  "hasHoneycomb": true,
+  "baseLayerTexture": "dragon/dragon_bee_primary",
+  "ColorData": {
+    "primaryColor": "#161616",
+    "secondaryColor": "#0A0A0A",
+    "honeycombColor": "#0A000C",
+    "primaryLayerTexture": "dragon/dragon_bee_primary",
+    "secondaryLayerTexture": "dragon/dragon_bee_secondary",
+    "emissiveLayerTexture": "dragon/dragon_bee_emissive",
+    "isBeeColored": true,
+    "isGlowing": true,
+    "glowColor": "#2D2D2D",
+    "modelType": "DRAGON"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "draconicevolution:small_chaos_frag",
+    "mainOutputWeight": 0.5
+  },
+  "TraitData": {
+    "hasTraits": true
+  }
+}

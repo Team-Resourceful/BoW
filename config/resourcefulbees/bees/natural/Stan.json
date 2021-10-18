@@ -1,0 +1,23 @@
+{
+  "flower": "tag:forge:stone",
+  "hasHoneycomb": true,
+  "creator": "Lexxie",
+  "lore": "In loving memory of Stan Lee",
+  "baseLayerTexture": "misc/stan_bee",
+  "ColorData": {
+    "honeycombColor": "#5A5A5A"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": true,
+    "biomeWhitelist": "tag:mountain, hills",
+    "biomeBlacklist": "minecraft:desert_hills",
+    "spawnWeight": 5,
+    "minGroupSize": 1,
+    "maxGroupSize": 2
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "feedItem": "tag:forge:stone",
+    "feedAmount": 5
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "flower": "tag:forge:mushrooms",
+  "traits": ["slimy"],
+  "baseLayerTexture": "slime/slime_bee",
+  "ColorData": {
+    "modelType": "GELATINOUS",
+    "gelLayerTexture": "/slime/slime_gel_Layer",
+    "honeycombColor": "#62B64A"
+  },
+  "MutationData": {
+    "hasMutation": true,
+    "mutations": [{
+      "type": "BLOCK",
+      "inputID": "minecraft:honey_block",
+      "chance": 0.75,
+      "outputs": [{
+        "outputID": "minecraft:slime_block"
+      }]
+    }]
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainInputCount": 1,
+    "mainOutput": "minecraft:slime_ball",
+    "mainOutputWeight": 0.5,
+    "mainOutputCount": 2,
+    "secondaryOutput": "xreliquary:slime_pearl",
+    "secondaryOutputWeight": 0.01,
+    "secondaryOutputCount": 2,
+    "bottleOutput": "minecraft:honey_bottle",
+    "bottleOutputWeight": 0.25,
+    "bottleOutputCount": 1,
+    "recipeTime": 200
+  },
+  "SpawnData": {
+    "canSpawnInWorld": true,
+    "biomeWhitelist": "tag:swamp",
+    "spawnWeight": 5,
+    "minGroupSize": 1,
+    "maxGroupSize": 2
+  },
+  "TraitData": {
+    "hasTraits": true
+  }
+}

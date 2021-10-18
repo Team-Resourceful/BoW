@@ -1,0 +1,30 @@
+{
+  "flower": "tag:tombstone:decorative_graves",
+  "creator": "NoControl",
+  "lore": "You are never truly alone.\nWherever you are, you have ghosts,\nand if you have ghosts, you have everything.",
+  "loreColor": "#626262",
+  "hasHoneycomb": true,
+  "ColorData": {
+    "primaryColor": "#F5F5F5",
+    "secondaryColor": "#626262",
+    "honeycombColor": "#A8A9AD",
+    "isBeeColored": true
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainInputCount": 4,
+    "mainOutput": "tombstone:grave_dust",
+    "mainOutputWeight": 0.20,
+    "secondaryOutput": "tombstone:essence_of_undeath",
+    "secondaryOutputWeight": 0.20
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "Zombie",
+    "parent2": "Skeleton",
+    "breedWeight": 10,
+    "breedChance": 0.75,
+    "feedItem": "tombstone:grave_dust",
+    "feedAmount": 5
+  }
+}
