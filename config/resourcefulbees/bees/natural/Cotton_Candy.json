@@ -55,7 +55,7 @@
     "biomeWhitelist": "byg:pumpkin_forest",
     "spawnWeight": 5,
     "minGroupSize": 1,
-    "maxGroupSize": 3
+    "maxGroupSize": 2
   },
   "BreedData": {
     "isBreedable": true,
