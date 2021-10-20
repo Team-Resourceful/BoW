@@ -1,0 +1,31 @@
+{
+  "flower": "tag:forge:storage_blocks/gold",
+  "maxTimeInHive": 2400,
+  "traits": ["nether"],
+  "lore": "O accursed hunger of gold, to what dost\nthou not compel human hearts!",
+  "loreColor": "#FFDC00",
+  "hasHoneycomb": true,
+  "baseLayerTexture": "ores/gold/gold_bee",
+  "ColorData": {
+    "honeycombColor": "#FFDC00",
+    "modelType": "DEFAULT"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "minecraft:gold_ore",
+    "mainOutputWeight": 0.50,
+    "secondaryOutput": "minecraft:gold_ingot",
+    "secondaryOutputWeight": 0.02
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "Quartz",
+    "parent2": "Stony",
+    "breedChance": 0.75,
+    "feedItem": "tag:forge:storage_blocks/gold",
+    "feedAmount": 5
+  },
+  "TraitData": {
+    "hasTraits": true
+  }
+}

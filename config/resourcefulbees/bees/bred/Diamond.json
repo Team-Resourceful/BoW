@@ -1,10 +1,12 @@
 {
   "flower": "tag:forge:storage_blocks/diamond",
   "maxTimeInHive": 2400,
+  "lore": "A diamond is a chunk of coal that\nis made good under pressure.",
+  "loreColor": "#b9f2ff",
   "hasHoneycomb": true,
   "baseLayerTexture": "ores/diamond/diamond_bee",
   "ColorData": {
-    "honeycombColor": "#00ffff",
+    "honeycombColor": "#b9f2ff",
     "modelType": "ORE"
   },
   "CentrifugeData": {

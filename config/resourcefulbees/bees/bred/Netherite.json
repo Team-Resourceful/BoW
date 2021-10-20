@@ -1,16 +1,28 @@
 {
   "flower": "tag:forge:storage_blocks/netherite",
+  "maxTimeInHive": 2400,
+  "traits": ["nether"],
+  "lore": "All that is, ever, ever was,\nWill be ever, twisting, turning,\nThrough the NETHER!",
+  "loreColor": "#654740",
   "hasHoneycomb": true,
   "baseLayerTexture": "ores/netherite/netherite_bee",
-  "traits": ["nether", "wither"],
   "ColorData": {
-    "honeycombColor": "#654740"
+    "honeycombColor": "#654740",
+    "modelType": "DEFAULT"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "minecraft:netherite_scrap",
+    "mainOutputWeight": 0.50,
+    "secondaryOutput": "minecraft:netherite_scrap",
+    "secondaryOutputWeight": 0.02
   },
   "BreedData": {
     "isBreedable": true,
     "parent1": "Wither",
     "parent2": "Diamond",
-    "feedItem": "tag:forge:ingots/netherite",
+    "breedChance": 0.75,
+    "feedItem": "tag:forge:storage_blocks/netherite",
     "feedAmount": 5
   },
   "TraitData": {
