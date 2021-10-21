@@ -1,0 +1,33 @@
+{
+  "flower": "tag:forge:storage_blocks/constantan",
+  "maxTimeInHive": 700,
+  "hasHoneycomb": true,
+  "baseLayerTexture": "metal/metal_bee",
+  "ColorData": {
+    "isBeeColored": true,
+    "modelType" : "ORE",
+    "honeycombColor": "#CF9C48",
+    "primaryColor": "#CF9C48",
+    "secondaryColor": "#999999",
+    "primaryLayerTexture":"metal/metal_bee",
+    "secondaryLayerTexture":"metal/metal_bee_secondary"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "thermal:constantan_ingot"
+  },
+  "SpawnData": {
+    "spawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "feedItem": "tag:forge:ingots/constantan",
+    "feedAmount": 3
+  },
+  "TraitData": {
+    "hasTraits": false
+  }
+}

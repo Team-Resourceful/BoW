@@ -1,0 +1,46 @@
+{
+  "flower": "tag:minecraft:mushroom_grow_block",
+  "hasHoneycomb": true,
+  "traits": [],
+  "maxTimeInHive": 1200,
+  "baseLayerTexture": "mushroom/bee_red",
+  "ColorData": {
+    "isBeeColored": false,
+    "honeycombColor": "#FE2A2A",
+    "modelType": "MUSHROOM"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "minecraft:brown_mushroom"
+  },
+  "MutationData": {
+    "hasMutation": true,
+    "mutationInput": "minecraft:grass",
+    "mutationOutput": "minecraft:red_mushroom",
+    "mutationType": "BLOCK_TO_BLOCK",
+    "mutationCount": 15,
+    "mutations": [
+      {
+        "type": "ENTITY_TO_ENTITY",
+        "inputID": "entity:cow",
+        "outputs": [
+          {
+            "outputID": "entity:mooshroom"
+          }
+        ]
+      }
+    ]
+  },
+  "SpawnData": {
+    "canSpawnInWorld": true,
+    "biomeWhitelist": "tag:MUSHROOM,SPOOKY,CONIFEROUS"
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "feedItem": "minecraft:red_mushroom",
+    "feedAmount": 4
+  },
+  "TraitData": {
+    "hasTraits": true
+  }
+}

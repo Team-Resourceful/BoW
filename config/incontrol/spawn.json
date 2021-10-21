@@ -1,7 +1,46 @@
-[
-  {
+[{
     "dimension": "compactmachines:compact_world",
     "mod": "ars_nouveau",
+    "result": "deny"
+  },
+  {
+    "mob": [
+      "feywild:autumn_pixie"
+    ],
+    "mincount": {
+      "amount": 3,
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "mob": [
+      "feywild:summer_pixie"
+    ],
+    "mincount": {
+      "amount": 3,
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "mob": [
+      "feywild:winter_pixie"
+    ],
+    "mincount": {
+      "amount": 3,
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "mob": [
+      "feywild:spring_pixie"
+    ],
+    "mincount": {
+      "amount": 3,
+      "perplayer": true
+    },
     "result": "deny"
   }
 ]

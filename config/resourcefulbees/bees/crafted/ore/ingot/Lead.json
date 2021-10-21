@@ -1,0 +1,32 @@
+{
+  "flower": "tag:forge:storage_blocks/lead",
+  "maxTimeInHive": 2400,
+  "lore": "I have never seen the Philosopher's Stone that turns\nlead into gold, but I have known the pursuit of it\nturn a Man's Gold into Lead.",
+  "loreColor": "#D0E4E1",
+  "hasHoneycomb": true,
+  "baseLayerTexture": "ores/custom/custom_bee",
+  "ColorData": {
+    "isBeeColored": true,
+    "modelType": "ORE",
+    "honeycombColor": "#FC0000",
+    "secondaryColor": "#A80404",
+    "primaryLayerTexture": "ores/custom/custom_bee_primary",
+    "secondaryLayerTexture": "ores/custom/custom_bee_secondary",
+    "emissiveLayerTexture": "ores/custom/custom_bee_emissive",
+    "isGlowing": true,
+    "glowColor": "#A80404"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "thermal:lead_ore",
+    "mainOutputWeight": 0.50
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "Coal",
+    "parent2": "Iron",
+    "breedChance": 0.75,
+    "feedItem": "tag:forge:storage_blocks/lead",
+    "feedAmount": 5
+  }
+}

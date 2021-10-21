@@ -1,0 +1,40 @@
+{
+  "flower": "tag:forge:storage_blocks/gold",
+  "maxTimeInHive": 2400,
+  "hasHoneycomb": false,
+  "baseLayerTexture" : "gilded/golden_flower_bee",
+  "ColorData": {
+    "modelType": "MUSHROOM",
+    "primaryColor": "#F9BD23"
+  },
+  "MutationData": {
+    "hasMutation": true,
+    "mutationCount" : 4,
+    "mutations" : [
+      {
+        "type" : "BLOCK",
+        "inputID" : "tag:minecraft:small_flowers",
+        "chance" : 0.25,
+        "outputs" : [
+          {"outputID": "resourcefulbees:gold_flower"}
+        ]
+      }
+    ]
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": false
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "Gilded",
+    "parent2": "Flower",
+    "feedItem": "resourcefulbees:gold_flower",
+    "feedAmount": 4
+  },
+  "TraitData": {
+    "hasTraits": false
+  }
+}

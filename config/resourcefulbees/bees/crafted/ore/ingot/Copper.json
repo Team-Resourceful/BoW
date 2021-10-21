@@ -1,0 +1,32 @@
+{
+  "flower": "tag:forge:storage_blocks/copper",
+  "maxTimeInHive": 2400,
+  "lore": "Just because there's tarnish on the copper,\ndoesn't mean there's not a shine beneath.",
+  "loreColor": "#D28868",
+  "hasHoneycomb": true,
+  "baseLayerTexture": "ores/custom/custom_bee",
+  "ColorData": {
+    "isBeeColored": true,
+    "modelType": "ORE",
+    "honeycombColor": "#AABCDA",
+    "secondaryColor": "#AABCDA",
+    "primaryLayerTexture": "ores/custom/custom_bee_primary",
+    "secondaryLayerTexture": "ores/custom/custom_bee_secondary",
+    "emissiveLayerTexture": "ores/custom/custom_bee_emissive",
+    "isGlowing": true,
+    "glowColor": "#A80404"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "thermal:copper_ore",
+    "mainOutputWeight": 0.50
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "Quartz",
+    "parent2": "Stony",
+    "breedChance": 0.75,
+    "feedItem": "tag:forge:storage_blocks/copper",
+    "feedAmount": 5
+  }
+}
