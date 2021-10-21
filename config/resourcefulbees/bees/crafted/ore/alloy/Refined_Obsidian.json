@@ -1,7 +1,5 @@
 {
   "flower": "tag:forge:storage_blocks/refined_obsidian",
-  "maxTimeInHive": 900,
-  "traits": ["nether"],
   "hasHoneycomb": true,
   "baseLayerTexture": "metal/metal_bee",
   "ColorData": {
@@ -11,18 +9,15 @@
     "primaryColor": "#9680B9",
     "secondaryColor": "#999999",
     "primaryLayerTexture":"metal/metal_bee",
-    "secondaryLayerTexture":"metal/metal_bee_secondary"
-  },
-  "MutationData": {
-    "hasMutation": false
+    "secondaryLayerTexture":"metal/metal_bee_secondary",
+    "emissiveLayerTexture": "metal/metal_bee_emissive",
+    "isGlowing": true,
+    "glowColor": "#9680B9"
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
     "mainOutput": "mekanism:ingot_refined_obsidian",
     "mainOutputWeight": 0.8
-  },
-  "SpawnData": {
-    "spawnInWorld": false
   },
   "BreedData": {
     "isBreedable": true,
@@ -30,8 +25,5 @@
     "parent2": "Obsidian",
     "feedItem": "tag:forge:ingots/refined_obsidian",
     "feedAmount": 3
-  },
-  "TraitData": {
-    "hasTraits": true
   }
 }

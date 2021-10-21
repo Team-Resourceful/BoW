@@ -2,19 +2,19 @@
   "flower": "tag:forge:storage_blocks/osmium",
   "maxTimeInHive": 2400,
   "lore": "Not just the rarest of all metals,\nbut also the most dense.\nOsmium is rare yet dangerous.",
-  "loreColor": "#BDCBD4",
+  "loreColor": "#CCE0EE",
   "hasHoneycomb": true,
   "baseLayerTexture": "ores/custom/custom_bee",
   "ColorData": {
     "isBeeColored": true,
     "modelType": "ORE",
-    "honeycombColor": "#AABCDA",
-    "secondaryColor": "#AABCDA",
+    "honeycombColor": "#CCE0EE",
+    "secondaryColor": "#CCE0EE",
     "primaryLayerTexture": "ores/custom/custom_bee_primary",
     "secondaryLayerTexture": "ores/custom/custom_bee_secondary",
     "emissiveLayerTexture": "ores/custom/custom_bee_emissive",
     "isGlowing": true,
-    "glowColor": "#A80404"
+    "glowColor": "#CCE0EE"
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,

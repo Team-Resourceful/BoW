@@ -1,16 +1,32 @@
 {
   "flower": "minecraft:prismarine_bricks",
+  "traits": ["can_swim"],
   "baseLayerTexture": "guardian/guardian_bee",
   "ColorData": {
     "honeycombColor": "#2A4455",
     "modelType": "GUARDIAN"
   },
   "CentrifugeData": {
-    "hasCentrifugeOutput": false
+    "hasCentrifugeOutput": true,
+    "mainOutput": "minecraft:prismarine_shard",
+    "mainOutputWeight": 0.5,
+    "secondaryOutput": "minecraft:prismarine_crystals",
+    "secondaryOutputWeight": 0.3
+  },
+  "SpawnData": {
+    "canSpawnInWorld": true,
+    "biomeWhitelist": "tag:ocean",
+    "spawnWeight": 5,
+    "minGroupSize": 1,
+    "maxGroupSize": 1
   },
   "BreedData": {
     "isBreedable": true,
-    "feedItem": "minecraft:prismarine_shard",
+    "breedChance": 0.75,
+    "feedItem": "xreliquary:guardian_spike",
     "feedAmount": 5
+  },
+  "TraitData": {
+    "hasTraits": true
   }
 }

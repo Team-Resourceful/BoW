@@ -1,7 +1,5 @@
 {
   "flower": "tag:forge:storage_blocks/refined_glowstone",
-  "maxTimeInHive": 900,
-  "traits": ["nether"],
   "hasHoneycomb": true,
   "baseLayerTexture": "metal/metal_bee",
   "ColorData": {
@@ -16,16 +14,10 @@
     "isGlowing": true,
     "glowColor": "#E7D971"
   },
-  "MutationData": {
-    "hasMutation": false
-  },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
     "mainOutput": "mekanism:ingot_refined_glowstone",
     "mainOutputWeight": 0.85
-  },
-  "SpawnData": {
-    "spawnInWorld": false
   },
   "BreedData": {
     "isBreedable": true,
@@ -33,8 +25,5 @@
     "parent2": "Glowing",
     "feedItem": "tag:forge:ingots/refined_glowstone",
     "feedAmount": 3
-  },
-  "TraitData": {
-    "hasTraits": true
   }
 }

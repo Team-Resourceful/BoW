@@ -1,15 +1,11 @@
 {
   "flower": "minecraft:snow_block",
-  "maxTimeInHive": 600,
   "hasHoneycomb": true,
   "baseLayerTexture" : "natural/snowy_bee",
   "ColorData": {
     "isBeeColored": false,
     "modelType" : "MUSHROOM",
     "honeycombColor": "#E5F5F5"
-  },
-  "MutationData": {
-    "hasMutation": false
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
@@ -24,8 +20,5 @@
     "isBreedable": true,
     "feedItem": "minecraft:snowball",
     "feedAmount": 4
-  },
-  "TraitData": {
-    "hasTraits": false
   }
 }

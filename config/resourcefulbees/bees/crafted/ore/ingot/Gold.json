@@ -2,19 +2,19 @@
   "flower": "tag:forge:storage_blocks/gold",
   "maxTimeInHive": 2400,
   "lore": "O accursed hunger of gold, to what dost\nthou not compel human hearts!",
-  "loreColor": "#FFDC00",
+  "loreColor": "#F4CA3E",
   "hasHoneycomb": true,
   "baseLayerTexture": "ores/custom/custom_bee",
   "ColorData": {
     "isBeeColored": true,
     "modelType": "ORE",
-    "honeycombColor": "#AABCDA",
-    "secondaryColor": "#AABCDA",
+    "honeycombColor": "#F4CA3E",
+    "secondaryColor": "#F4CA3E",
     "primaryLayerTexture": "ores/custom/custom_bee_primary",
     "secondaryLayerTexture": "ores/custom/custom_bee_secondary",
     "emissiveLayerTexture": "ores/custom/custom_bee_emissive",
     "isGlowing": true,
-    "glowColor": "#A80404"
+    "glowColor": "#F4CA3E"
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,

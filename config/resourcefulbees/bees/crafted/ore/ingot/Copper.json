@@ -2,19 +2,19 @@
   "flower": "tag:forge:storage_blocks/copper",
   "maxTimeInHive": 2400,
   "lore": "Just because there's tarnish on the copper,\ndoesn't mean there's not a shine beneath.",
-  "loreColor": "#D28868",
+  "loreColor": "#A34827",
   "hasHoneycomb": true,
   "baseLayerTexture": "ores/custom/custom_bee",
   "ColorData": {
     "isBeeColored": true,
     "modelType": "ORE",
-    "honeycombColor": "#AABCDA",
-    "secondaryColor": "#AABCDA",
+    "honeycombColor": "#A34827",
+    "secondaryColor": "#A34827",
     "primaryLayerTexture": "ores/custom/custom_bee_primary",
     "secondaryLayerTexture": "ores/custom/custom_bee_secondary",
     "emissiveLayerTexture": "ores/custom/custom_bee_emissive",
     "isGlowing": true,
-    "glowColor": "#A80404"
+    "glowColor": "#A34827"
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,

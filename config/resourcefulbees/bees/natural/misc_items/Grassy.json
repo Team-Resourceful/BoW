@@ -1,14 +1,10 @@
 {
   "flower": "minecraft:grass",
-  "maxTimeInHive": 600,
   "hasHoneycomb": true,
-  "baseLayerTexture" : "plant/grassy_bee",
+  "baseLayerTexture" : "misc/grassy_bee",
   "ColorData": {
     "modelType": "MUSHROOM",
     "primaryColor": "#B1FF6D"
-  },
-  "MutationData": {
-    "hasMutation": false
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
@@ -24,8 +20,5 @@
     "isBreedable": true,
     "feedItem": "minecraft:grass",
     "feedAmount": 2
-  },
-  "TraitData": {
-    "hasTraits": false
   }
 }

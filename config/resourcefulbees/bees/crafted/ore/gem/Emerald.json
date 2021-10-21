@@ -6,13 +6,13 @@
   "ColorData": {
     "isBeeColored": true,
     "modelType": "ORE",
-    "honeycombColor": "#FC0000",
-    "secondaryColor": "#A80404",
+    "honeycombColor": "#105E26",
+    "secondaryColor": "#105E26",
     "primaryLayerTexture": "ores/custom/custom_bee_primary",
     "secondaryLayerTexture": "ores/custom/custom_bee_secondary",
     "emissiveLayerTexture": "ores/custom/custom_bee_emissive",
     "isGlowing": true,
-    "glowColor": "#A80404"
+    "glowColor": "#105E26"
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,

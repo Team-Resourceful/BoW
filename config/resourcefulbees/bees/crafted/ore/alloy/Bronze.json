@@ -1,6 +1,5 @@
 {
   "flower": "tag:forge:storage_blocks/bronze",
-  "hasHoneycomb": true,
   "maxTimeInHive": 800,
   "baseLayerTexture": "metal/metal_bee",
   "ColorData": {
@@ -10,24 +9,18 @@
     "primaryColor": "#BB8A5D",
     "secondaryColor": "#999999",
     "primaryLayerTexture":"metal/metal_bee",
-    "secondaryLayerTexture":"metal/metal_bee_secondary"
-  },
-  "MutationData": {
-    "hasMutation": false
+    "secondaryLayerTexture":"metal/metal_bee_secondary",
+    "emissiveLayerTexture": "metal/metal_bee_emissive",
+    "isGlowing": true,
+    "glowColor": "#BB8A5D"
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
     "mainOutput": "thermal:bronze_ingot"
   },
-  "SpawnData": {
-    "canSpawnInWorld": false
-  },
   "BreedData": {
     "isBreedable": true,
     "feedItem": "tag:forge:ingots/bronze",
     "feedAmount": 3
-  },
-  "TraitData": {
-    "hasTraits": false
   }
 }

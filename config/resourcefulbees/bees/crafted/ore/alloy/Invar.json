@@ -1,7 +1,6 @@
 {
   "flower": "tag:forge:storage_blocks/invar",
   "hasHoneycomb": true,
-  "maxTimeInHive": 700,
   "baseLayerTexture": "metal/metal_bee",
   "ColorData": {
     "isBeeColored": true,
@@ -10,24 +9,18 @@
     "primaryColor": "#D1D9C8",
     "secondaryColor": "#999999",
     "primaryLayerTexture":"metal/metal_bee",
-    "secondaryLayerTexture":"metal/metal_bee_secondary"
-  },
-  "MutationData": {
-    "hasMutation": false
+    "secondaryLayerTexture":"metal/metal_bee_secondary",
+    "emissiveLayerTexture": "metal/metal_bee_emissive",
+    "isGlowing": true,
+    "glowColor": "#D1D9C8"
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
     "mainOutput": "thermal:invar_ingot"
   },
-  "SpawnData": {
-    "canSpawnInWorld": false
-  },
   "BreedData": {
     "isBreedable": true,
     "feedItem": "tag:forge:ingots/invar",
     "feedAmount": 3
-  },
-  "TraitData": {
-    "hasTraits": false
   }
 }

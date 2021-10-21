@@ -14,7 +14,7 @@
   },
   "SpawnData": {
     "canSpawnInWorld": true,
-    "biomeWhitelist": "tag:mountain, hills",
+    "biomeWhitelist": "tag:mountain,hills",
     "biomeBlacklist": "minecraft:desert_hills",
     "spawnWeight": 5,
     "minGroupSize": 1,

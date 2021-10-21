@@ -1,6 +1,5 @@
 {
   "flower": "tag:forge:storage_blocks/elementium",
-  "maxTimeInHive": 700,
   "hasHoneycomb": true,
   "baseLayerTexture": "metal/metal_bee",
   "ColorData": {
@@ -10,17 +9,14 @@
     "primaryColor": "#DA58F5",
     "secondaryColor": "#999999",
     "primaryLayerTexture":"metal/metal_bee",
-    "secondaryLayerTexture":"metal/metal_bee_secondary"
-  },
-  "MutationData": {
-    "hasMutation": false
+    "secondaryLayerTexture":"metal/metal_bee_secondary",
+    "emissiveLayerTexture": "metal/metal_bee_emissive",
+    "isGlowing": true,
+    "glowColor": "#DA58F5"
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
     "mainOutput": "botania:elementium_ingot"
-  },
-  "SpawnData": {
-    "spawnInWorld": false
   },
   "BreedData": {
     "isBreedable": true,
@@ -28,8 +24,5 @@
     "parent2": "Botanical",
     "feedItem": "mythicbotany:alfsteel_ingot",
     "feedAmount": 3
-  },
-  "TraitData": {
-    "hasTraits": false
   }
 }

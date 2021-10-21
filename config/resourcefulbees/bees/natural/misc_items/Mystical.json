@@ -1,28 +1,48 @@
 {
-  "flower": "botania:livingrock",
-  "hasHoneycomb": true,
-  "baseLayerTexture": "misc/mystical_bee",
+  "flower": "botania:mana_pool",
+  "hasHoneycomb": false,
+  "baseLayerTexture": "misc/mystical_flower_bee",
   "ColorData": {
-    "primaryColor": "#5cea30",
-    "secondaryColor": "#79ef50",
-    "honeycombColor": "#5cea30",
-    "primaryLayerTexture": "misc/mystical_rainbow_bee",
-    "emissiveLayerTexture": "misc/mystical_rainbow_bee",
     "isBeeColored": true,
     "isRainbowBee": true,
-    "modelType": "MUSHROOM"
+    "modelType": "MUSHROOM",
+    "isGlowing": true,
+    "primaryLayerTexture": "empty_layer",
+    "secondaryLayerTexture": "misc/mystical_flower_bee_rainbow",
+    "emissiveLayerTexture": "misc/mystical_flower_bee_rainbow",
+    "honeycombColor": "#F9BD23"
   },
-  "SpawnData": {
-    "canSpawnInWorld": true,
-    "biomeWhitelist": "tag:mystical",
-    "spawnWeight": 5,
-    "minGroupSize": 1,
-    "maxGroupSize": 2
+  "MutationData": {
+    "hasMutation": true,
+    "mutations": [{
+      "type": "BLOCK",
+      "inputID": "minecraft:grass",
+      "chance": 0.25,
+      "outputs": [
+        {"outputID": "botania:white_mystical_flower"},
+        {"outputID": "botania:orange_mystical_flower"},
+        {"outputID": "botania:magenta_mystical_flower"},
+        {"outputID": "botania:light_blue_mystical_flower"},
+        {"outputID": "botania:yellow_mystical_flower"},
+        {"outputID": "botania:lime_mystical_flower"},
+        {"outputID": "botania:pink_mystical_flower"},
+        {"outputID": "botania:gray_mystical_flower"},
+        {"outputID": "botania:light_gray_mystical_flower"},
+        {"outputID": "botania:cyan_mystical_flower"},
+        {"outputID": "botania:purple_mystical_flower"},
+        {"outputID": "botania:blue_mystical_flower"},
+        {"outputID": "botania:brown_mystical_flower"},
+        {"outputID": "botania:green_mystical_flower"},
+        {"outputID": "botania:red_mystical_flower"},
+        {"outputID": "botania:black_mystical_flower"}
+      ]
+    }]
   },
   "BreedData": {
     "isBreedable": true,
-    "breedChance": 0.75,
-    "feedItem": "tag:botania:mystical_flowers",
+    "parent1": "Mana",
+    "parent2": "Flower",
+    "feedItem": "minecraft:grass",
     "feedAmount": 5
   }
 }

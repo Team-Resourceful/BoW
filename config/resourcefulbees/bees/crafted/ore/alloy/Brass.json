@@ -1,7 +1,5 @@
 {
   "flower": "tag:forge:storage_blocks/brass",
-  "hasHoneycomb": true,
-  "maxTimeInHive": 800,
   "baseLayerTexture": "metal/metal_bee",
   "ColorData": {
     "isBeeColored": true,
@@ -10,24 +8,18 @@
     "primaryColor": "#EFBF6C",
     "secondaryColor": "#999999",
     "primaryLayerTexture":"metal/metal_bee",
-    "secondaryLayerTexture":"metal/metal_bee_secondary"
-  },
-  "MutationData": {
-    "hasMutation": false
+    "secondaryLayerTexture":"metal/metal_bee_secondary",
+    "emissiveLayerTexture": "metal/metal_bee_emissive",
+    "isGlowing": true,
+    "glowColor": "#EFBF6C"
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
     "mainOutput": "create:brass_ingot"
   },
-  "SpawnData": {
-    "canSpawnInWorld": false
-  },
   "BreedData": {
     "isBreedable": true,
     "feedItem": "tag:forge:ingots/brass",
     "feedAmount": 3
-  },
-  "TraitData": {
-    "hasTraits": false
   }
 }
