@@ -1,7 +1,5 @@
 [general]
-"Enable 'q' Button" = false
-[oddities]
-"Totem Of Holding" = false
+"Enable 'q' Button" = false\
 [tweaks]
 [tweaks.improved_sleeping]
 "Percent Req" = 0.5
