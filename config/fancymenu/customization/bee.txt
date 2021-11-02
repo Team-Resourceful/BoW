@@ -1,0 +1,201 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = config/fancymenu/assets/bees/bh_1.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=400322%
+  orientation = mid-left
+  x = 71
+  action = movebutton
+  y = -7
+}
+
+customization {
+  identifier = %id=400322%
+  width = 69
+  action = resizebutton
+  height = 63
+}
+
+customization {
+  identifier = %id=400322%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400322%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = false
+  backgroundanimationhovered = bees2
+  action = setbuttontexture
+  backgroundnormal = config\fancymenu\assets\bees\mp.png
+}
+
+customization {
+  identifier = %id=604382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400382%
+  orientation = mid-left
+  x = 18
+  action = movebutton
+  y = 25
+}
+
+customization {
+  identifier = %id=400382%
+  width = 69
+  action = resizebutton
+  height = 63
+}
+
+customization {
+  identifier = %id=400382%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\fancymenu\assets\bees\st2.png
+  backgroundnormal = config\fancymenu\assets\bees\st.png
+}
+
+customization {
+  identifier = %id=502382%
+  orientation = mid-left
+  x = 72
+  action = movebutton
+  y = 57
+}
+
+customization {
+  identifier = %id=502382%
+  width = 69
+  action = resizebutton
+  height = 63
+}
+
+customization {
+  identifier = %id=502382%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=502382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\fancymenu\assets\bees\q2.png
+  backgroundnormal = config\fancymenu\assets\bees\q.png
+}
+
+customization {
+  identifier = %id=376382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400298%
+  orientation = mid-left
+  x = 19
+  action = movebutton
+  y = -37
+}
+
+customization {
+  identifier = %id=400298%
+  width = 68
+  action = resizebutton
+  height = 61
+}
+
+customization {
+  identifier = %id=400298%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400298%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = false
+  backgroundanimationhovered = bees1
+  action = setbuttontexture
+  backgroundnormal = config\fancymenu\assets\bees\sp.png
+}
+
+customization {
+  identifier = %id=400346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  orientation = mid-left
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config\fancymenu\assets\bees\bh2.png
+  label = 
+  loopbackgroundanimations = true
+  x = 18
+  width = 69
+  actionid = d2121cee-8b21-47b9-b5ad-e171b1ca03d31635858008059
+  action = addbutton
+  y = 89
+  backgroundnormal = config\fancymenu\assets\bees\bh.png
+  value = bisecthosting.com/ladylexxie
+  height = 63
+}
+
+customization {
+  orientation = bottom-left
+  shadow = false
+  x = 2
+  action = addtext
+  actionid = c4ec07a8-0e67-446d-97e6-8a4c260e28d31635879406052
+  y = -20
+  scale = 1.0
+  alignment = left
+  value = Pack: Beta 0.5.0
+}
+
+customization {
+  orientation = bottom-left
+  shadow = false
+  x = 2
+  action = addtext
+  actionid = 9980d47c-7fe9-4655-ad0e-228496b856b91635879589875
+  y = -10
+  scale = 1.0
+  alignment = left
+  value = Forge: %version:forge%
+}
+

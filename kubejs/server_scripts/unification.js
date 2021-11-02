@@ -36,9 +36,11 @@ onEvent('recipes', e => {
     e.shapeless(ingot, `9x #forge:nuggets/${metal}`)
     e.shapeless(Item.of(nugget, 9), `#forge:ingots/${metal}`)
     e.shapeless(block, `9x #forge:ingots/${metal}`)
+
     e.smelting(ingot, `#forge:dusts/${metal}`)
     e.smelting(ingot, `#forge:ores/${metal}`)
     e.smelting(ingot, `create:crushed_${metal}_ore`)
+
     e.blasting(ingot, `#forge:dusts/${metal}`)
     e.blasting(ingot, `#forge:ores/${metal}`)
     e.blasting(ingot, `create:crushed_${metal}_ore`)
@@ -50,6 +52,8 @@ onEvent('recipes', e => {
   unify('lead', 'thermal')
   unify('tin', 'thermal')
   unify('uranium', 'immersiveengineering')
+
+  
 
   e.replaceOutput('#forge:slag', 'thermal:slag')
 })

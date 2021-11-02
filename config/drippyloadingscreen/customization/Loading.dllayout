@@ -1,0 +1,14 @@
+type = hud
+
+customization-meta {
+  backgroundimage = config/fancymenu/assets/bees/bee_backround_dark.png
+  renderorder = foreground
+  backgroundcolor = 272727
+}
+
+customization {
+  x = 1
+  action = editforgestatustext
+  y = -1
+}
+
