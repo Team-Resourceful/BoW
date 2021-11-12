@@ -2,6 +2,7 @@ onEvent('jei.hide.items', e => {
   //#region consts
   let refined = ['controller', 'creative_controller', 'grid', 'crafting_grid', 'pattern_grid', 'fluid_grid', 'network_receiver', 'network_transmitter', 'relay', 'detector', 'security_manager', 'wireless_transmitter', 'disk_manipulator', 'crafter', 'crafter_manager', 'crafting_monitor']
   let colors = ['white', 'light_gray', 'gray', 'black', 'red', 'orange', 'yellow', 'lime', 'green', 'light_blue', 'cyan', 'blue', 'purple', 'magenta', 'pink', 'brown']
+  let enimaticaRemovals = ['certus', 'fluix', 'cobalt', 'iridium', 'cast_iron', 'enigmatic_fortunizer', 'enigmatic_hammer', 'thallasium', 'regalium', 'utherium', 'froststeel', 'cloggrum', 'nebu', 'cluster']
   //#endregion
   //#region functions
   /**
@@ -40,22 +41,32 @@ onEvent('jei.hide.items', e => {
   hideMetal('immersiveengineering', 'nickel')
   hideMetal('immersiveengineering', 'silver')
 
+  // remove enigmatica things
+  enimaticaRemovals.forEach(item => {
+    e.hide(`/^emendatusenigmatica:.*${item}.*/`)
+  })
+
+  colors.forEach(color => {
+    refined.forEach(item => e.hide([`refinedstorage:${color}_${item}`]))
+    e.hide([`creativewirelesstransmitter:${color}_creative_wireless_transmitter`])
+  })
+
   e.hide([
     'apotheosis:iron_mining_arrow',
     'apotheosis:diamond_mining_arrow',
     'apotheosis:explosive_arrow',
     '@chipped',
-    /supplementaries:bamboo_spikes_tipped/,
+    /engineerstools:.+_grit/,
     'naturesaura:chunk_loader',
     'bloodmagic:saltpeter',
     'bloodmagic:sulfur',
+    'kubejs:dummy_fluid_item',
     'mekanism:sawdust',
     'mekanism:block_charcoal',
     'mekanism:dust_sulfur',
     'immersiveengineering:slag',
     'immersivepetroleum:bitumen',
     'immersivepetroleum:oil_bucket',
-    /engineerstools:.+_grit/,
     'xreliquary:alkahestry_tome',
     'eidolon:sulfur',
     /resourcefulbees:.*spawn_egg/,
@@ -68,14 +79,10 @@ onEvent('jei.hide.items', e => {
     'thermal:machine_catalyst_creative_augment',
     'translocators:diamond_nugget',
     'createaddition:diamond_grit',
+    /supplementaries:bamboo_spikes_tipped/,
     /zycraft:aluminium_foil/,
     /zycraft:quartz_bucket/,
     /zycraft:aluminium_can/,
     /ftblibrary:fluid_container/
   ])
-
-  colors.forEach(color => {
-    refined.forEach(item => e.hide([`refinedstorage:${color}_${item}`]))
-    e.hide([`creativewirelesstransmitter:${color}_creative_wireless_transmitter`])
-  })
 })

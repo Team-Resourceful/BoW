@@ -1,2 +1,12 @@
 ["Global Options"]
 "Blocks Retain Tank Contents" = true
+["World Generation"]
+Apatite = false
+Cinnabar = false
+Niter = false
+Sulfur = false
+Copper = false
+Tin = false
+Lead = false
+Silver = false
+Nickel = false
