@@ -77,33 +77,34 @@ onEvent('recipes', e => {
   shapedRecipe(['minecraft:oak_log', 'minecraft:spruce_log', 'minecraft:birch_log', 'minecraft:jungle_log', 'minecraft:acacia_log', 'minecraft:dark_oak_log', 'minecraft:crimson_stem', 'minecraft:warped_stem'], 'resourcefulbees:lumber_honeycomb', 3)
   shapedRecipe(['minecraft:oak_log', 'minecraft:spruce_log', 'minecraft:birch_log', 'minecraft:jungle_log', 'minecraft:acacia_log', 'minecraft:dark_oak_log', 'minecraft:crimson_stem', 'minecraft:warped_stem'], 'resourcefulbees:lumber_honeycomb_block', 27)
   shapedRecipe(['witchery_rewitched:belladonna', 'witchery_rewitched:garlic', 'witchery_rewitched:icy_needle', 'witchery_rewitched:water_artichoke_bulb', 'witchery_rewitched:wolfsbane', 'witchery_rewitched:mandrake_root'], 'resourcefulbees:beewitched_honeycomb', 3)
-  shapedRecipe(['witchery_rewitched:belladonna', 'witchery_rewitched:garlic', 'witchery_rewitched:icy_needle', 'witchery_rewitched:water_artichoke_bulb', 'witchery_rewitched:wolfsbane', 'witchery_rewitched:mandrake_root'], 'resourcefulbees:beewitched_honeycomb_block', 27)
+  shapedRecipe(['witchery_rewitched:belladonna', 'witchery_rewitched:garlic', 'witchery_rewitched:icy_needle', 'witchery_rewitched:water_artichoke_bulb', 'witchery_rewitched:wolfsbane', 'witchery_rewitched:mandrake_root'], 'resourcefulbees:beewitched_honeycomb_block', 27) 
+	shapedRecipe([
+    "minecraft:potion{Potion:'minecraft:strength'}",
+		"minecraft:potion{Potion:'minecraft:mundane'}",
+		"minecraft:potion{Potion:'minecraft:awkward'}",
+		"minecraft:potion{Potion:'minecraft:thick'}",
+		"minecraft:potion{Potion:'minecraft:regeneration'}",
+		"minecraft:potion{Potion:'minecraft:swiftness'}",
+		"minecraft:potion{Potion:'minecraft:fire_resistance'}",
+		"minecraft:potion{Potion:'minecraft:poison'}",
+		"minecraft:potion{Potion:'minecraft:healing'}",
+		"minecraft:potion{Potion:'minecraft:night_vision'}",
+		"minecraft:potion{Potion:'minecraft:weakness'}",
+		"minecraft:potion{Potion:'minecraft:slowness'}",
+		"minecraft:potion{Potion:'minecraft:harming'}",
+		"minecraft:potion{Potion:'minecraft:turtle_master'}",
+		"minecraft:potion{Potion:'minecraft:slow_falling'}",
+		"minecraft:potion{Potion:'minecraft:invisibility'}"
+	], 'resourcefulbees:alchemist_honeycomb', 1)
   shapedRecipe([
-    "minecraft:potion{Potion:'mundane'}",
-    "minecraft:potion{Potion:'awkward'}",
-    "minecraft:potion{Potion:'thick'}",
-    "minecraft:potion{Potion:'regeneration'}",
-    "minecraft:potion{Potion:'swiftness'}",
-    "minecraft:potion{Potion:'fire_resistance'}",
-    "minecraft:potion{Potion:'poison'}",
-    "minecraft:potion{Potion:'healing'}",
-    "minecraft:potion{Potion:'night_vision'}",
-    "minecraft:potion{Potion:'weakness'}",
-    "minecraft:potion{Potion:'slowness'}",
-    "minecraft:potion{Potion:'harming'}",
-    "minecraft:potion{Potion:'turtle_master'}",
-    "minecraft:potion{Potion:'slow_falling'}",
-    "minecraft:potion{Potion:'invisibility'}"
-  ], 'resourcefulbees:alchemist_honeycomb', 1)
-  shapedRecipe([
-    "minecraft:potion{Potion:'strong_leaping'}",
-    "minecraft:potion{Potion:'strong_swiftness'}",
-    "minecraft:potion{Potion:'strong_slowness'}",
-    "minecraft:potion{Potion:'strong_healing'}",
-    "minecraft:potion{Potion:'strong_harming'}",
-    "minecraft:potion{Potion:'strong_poison'}",
-    "minecraft:potion{Potion:'strong_regeneration'}",
-    "minecraft:potion{Potion:'strong_strength'}",
-    "minecraft:potion{Potion:'long_turtle_master'}",
-  ], 'resourcefulbees:alchemist_honeycomb_block', 1)
+		"minecraft:potion{Potion:'minecraft:strong_leaping'}",
+		"minecraft:potion{Potion:'minecraft:strong_swiftness'}",
+		"minecraft:potion{Potion:'minecraft:strong_slowness'}",
+		"minecraft:potion{Potion:'minecraft:strong_healing'}",
+		"minecraft:potion{Potion:'minecraft:strong_harming'}",
+		"minecraft:potion{Potion:'minecraft:strong_poison'}",
+		"minecraft:potion{Potion:'minecraft:strong_regeneration'}",
+		"minecraft:potion{Potion:'minecraft:strong_strength'}",
+		"minecraft:potion{Potion:'minecraft:strong_turtle_master'}",
+	], 'resourcefulbees:alchemist_honeycomb_block', 1)
 })
