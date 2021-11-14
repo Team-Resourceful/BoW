@@ -1,0 +1,33 @@
+{
+  "flower": "tag:forge:storage_blocks/iron",
+  "maxTimeInHive": 2400,
+  "lore": "As iron is eaten away by rust, so the\nenvious are consumed by their own\npassion.",
+  "loreColor": "#61666A",
+  "hasHoneycomb": true,
+  "baseLayerTexture": "ores/custom/custom_bee",
+  "ColorData": {
+    "isBeeColored": true,
+    "modelType": "ORE",
+    "honeycombColor": "#61666A",
+    "secondaryColor": "#61666A",
+    "primaryLayerTexture": "ores/custom/custom_bee_primary",
+    "secondaryLayerTexture": "ores/custom/custom_bee_secondary",
+    "emissiveLayerTexture": "ores/custom/custom_bee_emissive",
+    "isGlowing": true,
+    "glowColor": "#61666A"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "minecraft:iron_ore",
+    "mainOutputWeight": 0.50
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "Quartz",
+    "parent2": "Stony",
+    "breedWeight": 10,
+    "breedChance": 0.75,
+    "feedItem": "tag:forge:storage_blocks/iron",
+    "feedAmount": 5
+  }
+}

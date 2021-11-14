@@ -1,0 +1,29 @@
+{
+  "flower": "tag:forge:storage_blocks/refined_obsidian",
+  "hasHoneycomb": true,
+  "baseLayerTexture": "metal/metal_bee",
+  "ColorData": {
+    "isBeeColored": true,
+    "modelType" : "ORE",
+    "honeycombColor": "#9680B9",
+    "primaryColor": "#9680B9",
+    "secondaryColor": "#999999",
+    "primaryLayerTexture":"metal/metal_bee",
+    "secondaryLayerTexture":"metal/metal_bee_secondary",
+    "emissiveLayerTexture": "metal/metal_bee_emissive",
+    "isGlowing": true,
+    "glowColor": "#9680B9"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "mekanism:ingot_refined_obsidian",
+    "mainOutputWeight": 0.8
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "Osmium",
+    "parent2": "Obsidian",
+    "feedItem": "tag:forge:ingots/refined_obsidian",
+    "feedAmount": 3
+  }
+}

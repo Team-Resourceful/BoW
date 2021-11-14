@@ -7,3 +7,7 @@ shouldGenerate = false
 shouldGenerate = false
 [world_generation.lead]
 shouldGenerate = false
+[world_generation.fluorite]
+shouldGenerate = false
+[world_generation.salt]
+shouldGenerate = true

@@ -20,8 +20,9 @@ onEvent('item.tooltip', e => {
   formattedTooltip('zycraft:fluid_void', 'Voids any adjacent fluid (works with waterlogged blocks too).')
   formattedTooltip('zycraft:zychorium_ice', 'Turns adjacent water to ice.')
   formattedTooltip('zycraft:fabricator', 'Autocrafter that can push the results into adjacent fabricators.')
-  formattedTooltip('mahoutsukai:caliburn', 'This item is obtained by throwing an enchanted sword into a lake created by the Power Consolidation ritual')
-  formattedTooltip('mahoutsukai:morgan', 'This item is obtained by killing a tamed wolf with a Caliburn')
+  formattedTooltip('mahoutsukai:caliburn', 'This item is obtained by throwing an enchanted sword into a lake created by the Power Consolidation ritual.')
+  formattedTooltip('mahoutsukai:morgan', 'This item is obtained by killing a tamed wolf with a Caliburn.')
+  formattedTooltip('resourcefulbees:honey_dipper', 'Use this item on the Beehemoth to check its current friendship level.')
 
   //#region Pipez
   //pipes
@@ -90,5 +91,4 @@ onEvent('item.tooltip', e => {
     [Text.of('Energy:').darkPurple(), ' ', Text.of('2,147,483,647').lightPurple(), ' ', Text.of('FE/t').darkPurple()],
   ])
   //#endregion
-  
 })

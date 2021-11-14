@@ -1,0 +1,32 @@
+{
+  "hasHoneycomb": true,
+  "ColorData": {
+    "isBeeColored": true,
+    "honeycombColor": "#ffffff",
+    "isRainbowBee": true,
+    "isGlowing": true
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "resourcefulbees:rainbow_honey",
+    "mainOutputWeight": 0.5,
+    "mainOutputCount": 250,
+    "secondaryOutputWeight": 0.2,
+    "bottleOutput": "resourcefulbees:rainbow_honey_bottle",
+    "hasFluidOutput": true
+  },
+  "SpawnData": {
+    "canSpawnInWorld": true,
+    "biomeWhitelist": "tag:overworld",
+    "biomeBlacklist": "tag:ocean",
+    "spawnWeight": 5,
+    "minGroupSize": 1,
+    "maxGroupSize": 2
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "breedChance": 0.75,
+    "feedItem": "tag:forge:dyes",
+    "feedAmount": 5
+  }
+}

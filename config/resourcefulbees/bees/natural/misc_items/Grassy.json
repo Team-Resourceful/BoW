@@ -1,0 +1,24 @@
+{
+  "flower": "minecraft:grass",
+  "hasHoneycomb": true,
+  "baseLayerTexture" : "misc/grassy_bee",
+  "ColorData": {
+    "modelType": "MUSHROOM",
+    "primaryColor": "#B1FF6D"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "minecraft:grass",
+    "mainOutputCount": 2
+  },
+  "SpawnData": {
+    "canSpawnInWorld": true,
+    "biomeWhitelist": "tag:plains,sparse,river",
+    "biomeBlacklist": "tag:WASTELAND,MOUNTAIN"
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "feedItem": "minecraft:grass",
+    "feedAmount": 2
+  }
+}

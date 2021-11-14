@@ -1,0 +1,26 @@
+{
+  "flower": "tag:forge:storage_blocks/lumium",
+  "hasHoneycomb": true,
+  "baseLayerTexture": "metal/metal_bee",
+  "ColorData": {
+    "isBeeColored": true,
+    "modelType" : "ORE",
+    "honeycombColor": "#F1DA70",
+    "primaryColor": "#F1DA70",
+    "secondaryColor": "#999999",
+    "primaryLayerTexture":"metal/metal_bee",
+    "secondaryLayerTexture":"metal/metal_bee_secondary",
+    "emissiveLayerTexture": "metal/metal_bee_emissive",
+    "isGlowing": true,
+    "glowColor": "#F1DA70"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "thermal:lumium_ingot"
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "feedItem": "tag:forge:ingots/lumium",
+    "feedAmount": 3
+  }
+}

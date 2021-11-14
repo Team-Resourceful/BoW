@@ -12,6 +12,8 @@ onEvent('recipes', e => {
     e.shapeless(`8x ${r.outputItems[0].id}`, r.inputItems[0])
   })
 
+  e.shapeless('4x minecraft:quartz', 'minecraft:quartz_block')
+
   e.smelting('minecraft:glass', '#forge:sand').xp(.1).id('kubejs:minecraft/smelting/sand')
   e.smelting('minecraft:leather', 'forbidden_arcanus:rotten_leather').xp(.5).id('kubejs:minecraft/smelting/leather')
   e.smoking('minecraft:leather', 'forbidden_arcanus:rotten_leather').xp(.5).id('kubejs:minecraft/smoking/leather')

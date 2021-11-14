@@ -1,0 +1,32 @@
+{
+  "flower": "tag:misctags:flowers/end_flowers",
+  "hasHoneycomb": true,
+  "traits": ["ender"],
+  "maxTimeInHive": 1800,
+  "ColorData": {
+    "isBeeColored": true,
+    "honeycombColor": "#956895",
+    "primaryColor": "#956895",
+    "secondaryColor": "#303030"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "minecraft:shulker_shell",
+    "mainOutputWeight" : 0.1
+  },
+  "SpawnData": {
+    "canSpawnInWorld": true,
+    "biomeWhitelist": "tag:end"
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "feedItem": "minecraft:shulker_shell",
+    "feedAmount": 2
+  },
+  "TraitData": {
+    "hasTraits": true
+  }
+}

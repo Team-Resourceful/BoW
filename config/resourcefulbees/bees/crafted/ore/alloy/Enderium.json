@@ -1,0 +1,28 @@
+{
+  "flower": "tag:forge:storage_blocks/enderium",
+  "hasHoneycomb": true,
+  "baseLayerTexture": "metal/metal_bee",
+  "ColorData": {
+    "isBeeColored": true,
+    "modelType" : "ORE",
+    "honeycombColor": "#076B7A",
+    "primaryColor": "#076B7A",
+    "secondaryColor": "#104D89",
+    "primaryLayerTexture":"metal/metal_bee",
+    "secondaryLayerTexture":"metal/metal_bee_secondary",
+    "emissiveLayerTexture": "metal/metal_bee_emissive",
+    "isGlowing": true,
+    "glowColor": "#076B7A"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "thermal:enderium_ingot"
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "Iron",
+    "parent2": "Coal",
+    "feedItem": "tag:forge:ingots/enderium",
+    "feedAmount": 3
+  }
+}

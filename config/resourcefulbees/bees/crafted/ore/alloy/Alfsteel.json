@@ -1,0 +1,29 @@
+{
+  "flower": "mythicbotany:alfsteel_block",
+  "hasHoneycomb": true,
+  "baseLayerTexture": "metal/metal_bee",
+  "ColorData": {
+    "isBeeColored": true,
+    "modelType": "ORE",
+    "honeycombColor": "#F6AF15",
+    "primaryColor": "#F6AF15",
+    "secondaryColor": "#999999",
+    "primaryLayerTexture": "metal/metal_bee",
+    "secondaryLayerTexture": "metal/metal_bee_secondary",
+    "emissiveLayerTexture": "metal/metal_bee_emissive",
+    "isGlowing": true,
+    "glowColor": "#F6AF15"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "mythicbotany:alfsteel_ingot"
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "Terrasteel",
+    "parent2": "Elementium",
+    "breedChance": 0.25,
+    "feedItem": "mythicbotany:alfsteel_armor_upgrade",
+    "feedAmount": 3
+  }
+}

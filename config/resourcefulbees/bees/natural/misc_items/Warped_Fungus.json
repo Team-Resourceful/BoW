@@ -1,0 +1,49 @@
+{
+  "flower": "tag:minecraft:mushroom_grow_block",
+  "hasHoneycomb": true,
+  "traits": ["nether"],
+  "maxTimeInHive": 1200,
+  "baseLayerTexture": "mushroom/warped_alchemist_bee",
+  "ColorData": {
+    "isBeeColored": false,
+    "honeycombColor": "#14B485",
+    "modelType": "MUSHROOM"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "minecraft:warped_fungus"
+  },
+  "MutationData": {
+    "hasMutation": true,
+    "mutationInput": "minecraft:brown_mushroom",
+    "mutationOutput": "minecraft:warped_fungus",
+    "mutationType": "BLOCK_TO_BLOCK",
+    "mutationCount": 5,
+    "mutations": [
+      {
+        "type": "ENTITY_TO_ENTITY",
+        "inputID": "entity:zoglin",
+        "outputs": [
+          {
+            "outputID": "entity:hoglin",
+            "nbtData": {
+              "IsImmuneToZombification": true
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "SpawnData": {
+    "canSpawnInWorld": true,
+    "biomeWhitelist": "warped_forest"
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "feedItem": "minecraft:warped_fungus",
+    "feedAmount": 4
+  },
+  "TraitData": {
+    "hasTraits": true
+  }
+}

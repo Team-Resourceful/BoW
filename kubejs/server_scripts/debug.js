@@ -19,3 +19,11 @@ onEvent('block.right_click', e => {
     }
   }
 })
+
+onEvent('entity.attack', e => {
+  if (e.source.getPlayer()) {
+    if (e.source.getImmediate().getMainHandItem().id == 'kubejs:dev_tool') {
+      e.entity.kill()
+    }
+  }
+})

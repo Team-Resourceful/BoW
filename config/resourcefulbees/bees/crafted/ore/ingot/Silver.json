@@ -1,0 +1,26 @@
+{
+  "flower": "tag:forge:storage_blocks/silver",
+  "maxTimeInHive": 700,
+  "hasHoneycomb": true,
+  "baseLayerTexture": "ores/custom/custom_bee",
+  "ColorData": {
+    "isBeeColored": true,
+    "modelType": "ORE",
+    "honeycombColor": "#A2A2A1",
+    "secondaryColor": "#A2A2A1",
+    "primaryLayerTexture": "ores/custom/custom_bee_primary",
+    "secondaryLayerTexture": "ores/custom/custom_bee_secondary",
+    "emissiveLayerTexture": "ores/custom/custom_bee_emissive",
+    "isGlowing": true,
+    "glowColor": "#A2A2A1"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "therma:silver_ingot"
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "feedItem": "tag:forge:ingots/silver",
+    "feedAmount": 3
+  }
+}

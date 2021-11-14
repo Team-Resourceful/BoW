@@ -1,0 +1,32 @@
+{
+  "flower": "tag:forge:storage_blocks/diamond",
+  "maxTimeInHive": 2400,
+  "lore": "A diamond is a chunk of coal that\nis made good under pressure.",
+  "loreColor": "#B9F2FF",
+  "hasHoneycomb": true,
+  "baseLayerTexture": "ores/custom/custom_bee",
+  "ColorData": {
+    "isBeeColored": true,
+    "modelType": "ORE",
+    "honeycombColor": "#B9F2FF",
+    "secondaryColor": "#B9F2FF",
+    "primaryLayerTexture": "ores/custom/custom_bee_primary",
+    "secondaryLayerTexture": "ores/custom/custom_bee_secondary",
+    "emissiveLayerTexture": "ores/custom/custom_bee_emissive",
+    "isGlowing": true,
+    "glowColor": "#B9F2FF"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "minecraft:diamond_ore",
+    "mainOutputWeight": 0.50
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "Obsidian",
+    "parent2": "Coal",
+    "breedChance": 0.75,
+    "feedItem": "tag:forge:storage_blocks/diamond",
+    "feedAmount": 5
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "flower": "botania:mana_pool",
+  "hasHoneycomb": false,
+  "baseLayerTexture": "misc/mystical_flower_bee",
+  "ColorData": {
+    "isBeeColored": true,
+    "isRainbowBee": true,
+    "modelType": "MUSHROOM",
+    "isGlowing": true,
+    "primaryLayerTexture": "empty_layer",
+    "secondaryLayerTexture": "misc/mystical_flower_bee_rainbow",
+    "emissiveLayerTexture": "misc/mystical_flower_bee_rainbow",
+    "honeycombColor": "#F9BD23"
+  },
+  "MutationData": {
+    "hasMutation": true,
+    "mutations": [{
+      "type": "BLOCK",
+      "inputID": "minecraft:grass",
+      "chance": 0.25,
+      "outputs": [
+        {"outputID": "botania:white_mystical_flower"},
+        {"outputID": "botania:orange_mystical_flower"},
+        {"outputID": "botania:magenta_mystical_flower"},
+        {"outputID": "botania:light_blue_mystical_flower"},
+        {"outputID": "botania:yellow_mystical_flower"},
+        {"outputID": "botania:lime_mystical_flower"},
+        {"outputID": "botania:pink_mystical_flower"},
+        {"outputID": "botania:gray_mystical_flower"},
+        {"outputID": "botania:light_gray_mystical_flower"},
+        {"outputID": "botania:cyan_mystical_flower"},
+        {"outputID": "botania:purple_mystical_flower"},
+        {"outputID": "botania:blue_mystical_flower"},
+        {"outputID": "botania:brown_mystical_flower"},
+        {"outputID": "botania:green_mystical_flower"},
+        {"outputID": "botania:red_mystical_flower"},
+        {"outputID": "botania:black_mystical_flower"}
+      ]
+    }]
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "Mana",
+    "parent2": "Flower",
+    "feedItem": "minecraft:grass",
+    "feedAmount": 5
+  }
+}

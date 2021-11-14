@@ -6,11 +6,6 @@ onEvent('recipes', e => {
   e.recipes.mekanism.crushing('thermal:diamond_dust', 'minecraft:diamond')
   e.recipes.mekanism.crushing('thermal:sulfur_dust', 'thermal:sulfur')
 
-  utils.listOf(['apatite', 'slimesteel', 'pig_iron', 'steeleaf', 'ironwood', 'aquamarine', 'ruby', 'sapphire', 'fluorite', 'draconium', 'awakened_draconium'])
-    .forEach(item => {
-      e.recipes.thermal.insolator([`mysticalagriculture:${item}_essence`, `mysticalagriculture:${item}_seeds`], `mysticalagriculture:${item}_seeds`).water(500).id(`kubejs:thermal/insolator_${item}_seeds`)
-    })
-
   removeRecipeByID(e, [
     'thermal:machine/press/packing2x2/press_honeycomb_packing',
     'thermal:machine/press/unpacking/press_honeycomb_unpacking',

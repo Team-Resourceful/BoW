@@ -1,0 +1,27 @@
+{
+  "flower": "minecraft:sugar_cane",
+  "hasHoneycomb": true,
+  "baseLayerTexture" : "misc/sugar_bee",
+  "ColorData": {
+    "isBeeColored": false,
+    "modelType" : "CROP",
+    "honeycombColor": "#44B52D"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "minecraft:sugar_cane"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": true,
+    "biomeWhitelist": "tag:river,lake,beach",
+    "spawnWeight": 5,
+    "maxGroupSize": 1
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "Leafy",
+    "parent2": "Water",
+    "feedItem": "minecraft:sugar_cane",
+    "feedAmount": 5
+  }
+}

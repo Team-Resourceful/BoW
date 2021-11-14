@@ -1,0 +1,24 @@
+{
+  "flower": "minecraft:snow_block",
+  "hasHoneycomb": true,
+  "baseLayerTexture" : "natural/snowy_bee",
+  "ColorData": {
+    "isBeeColored": false,
+    "modelType" : "MUSHROOM",
+    "honeycombColor": "#E5F5F5"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "minecraft:snowball",
+    "mainOutputCount": 2
+  },
+  "SpawnData": {
+    "canSpawnInWorld": true,
+    "biomeWhitelist": "tag:cold"
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "feedItem": "minecraft:snowball",
+    "feedAmount": 4
+  }
+}

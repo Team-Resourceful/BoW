@@ -1,0 +1,19 @@
+{
+  "flower": "tag:minecraft:leaves",
+  "hasHoneycomb": false,
+  "baseLayerTexture" : "misc/lumber_bee",
+  "ColorData": {
+    "isBeeColored": false,
+    "modelType" : "GELATINOUS",
+    "honeycombColor": "#06B805"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": true,
+    "biomeWhitelist": "tag:forest"
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "feedItem": "tag:minecraft:leaves",
+    "feedAmount": 5
+  }
+}

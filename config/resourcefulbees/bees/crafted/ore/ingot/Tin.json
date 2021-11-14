@@ -1,0 +1,32 @@
+{
+  "flower": "tag:forge:storage_blocks/tin",
+  "maxTimeInHive": 2400,
+  "lore": "Round and round we spin,\nwith feet of lead and\nwings of tin.",
+  "loreColor": "#6B8796",
+  "hasHoneycomb": true,
+  "baseLayerTexture": "ores/custom/custom_bee",
+  "ColorData": {
+    "isBeeColored": true,
+    "modelType": "ORE",
+    "honeycombColor": "#6B8796",
+    "secondaryColor": "#6B8796",
+    "primaryLayerTexture": "ores/custom/custom_bee_primary",
+    "secondaryLayerTexture": "ores/custom/custom_bee_secondary",
+    "emissiveLayerTexture": "ores/custom/custom_bee_emissive",
+    "isGlowing": true,
+    "glowColor": "#6B8796"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "thermal:tin_ore",
+    "mainOutputWeight": 0.50
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "Quartz",
+    "parent2": "Stony",
+    "breedChance": 0.75,
+    "feedItem": "tag:forge:storage_blocks/tin",
+    "feedAmount": 5
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "flower": "tag:forge:storage_blocks/refined_glowstone",
+  "hasHoneycomb": true,
+  "baseLayerTexture": "metal/metal_bee",
+  "ColorData": {
+    "isBeeColored": true,
+    "modelType" : "ORE",
+    "honeycombColor": "#FCEB99",
+    "primaryColor": "#E7D971",
+    "secondaryColor": "#999999",
+    "primaryLayerTexture":"metal/metal_bee",
+    "secondaryLayerTexture":"metal/metal_bee_secondary",
+    "emissiveLayerTexture": "metal/metal_bee_emissive",
+    "isGlowing": true,
+    "glowColor": "#E7D971"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "mekanism:ingot_refined_glowstone",
+    "mainOutputWeight": 0.85
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "Osmium",
+    "parent2": "Glowing",
+    "feedItem": "tag:forge:ingots/refined_glowstone",
+    "feedAmount": 3
+  }
+}
