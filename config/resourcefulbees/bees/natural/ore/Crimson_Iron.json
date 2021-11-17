@@ -3,9 +3,7 @@
   "hasHoneycomb": true,
   "baseLayerTexture": "misc/crimson_bee",
   "ColorData": {
-    "primaryColor": "#D4CABA",
-    "secondaryColor": "#D4CABA",
-    "honeycombColor": "#D4CABA",
+    "honeycombColor": "#D24965",
     "modelType": "ORE"
   },
   "CentrifugeData": {

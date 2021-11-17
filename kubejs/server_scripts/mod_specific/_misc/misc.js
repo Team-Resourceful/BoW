@@ -1,15 +1,6 @@
 onEvent('recipes', e => {
-  //#region functions
-  function multicrush(output, input) {
-    e.recipes.mekanism.crushing(output, input)
-    e.recipes.create.crushing(output, input)
-    e.recipes.immersiveengineering.crusher(output, input)
-    e.recipes.thermal.pulverizer(output, input)
-  }
-  //#endregion
-  multicrush('4x minecraft:brick', 'minecraft:bricks')
-  multicrush('4x minecraft:magma_cream', 'minecraft:magma_block')
-  multicrush('minecraft:snow_block', 'minecraft:ice')
+  recipes.custom.crushing(e, 'minecraft:bricks', '4x minecraft:brick')
+  recipes.custom.crushing(e, 'minecraft:magma_block', '4x minecraft:magma_cream')
 
   e.shapeless('astralsorcery:marble_raw', 'quark:marble').id('kubejs:marble/astral_to_quark')
   e.shapeless('quark:marble', 'projectred-exploration:marble').id('kubejs:marble/quark_to_projectred')

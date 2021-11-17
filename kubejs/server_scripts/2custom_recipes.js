@@ -36,20 +36,29 @@ recipes = {
   },
   mekanism: {
     x5_processing: (e, item) => {
-      recipes.mekanism.dissolution(e, `forge:ores/${item}`, 'mekanism:sulfuric_acid', `emendatusenigmatica:dirty_${item}`)
+      recipes.mekanism.dissolution(e, `#forge:ores/${item}`, 'mekanism:sulfuric_acid', `emendatusenigmatica:dirty_${item}`)
       recipes.mekanism.washing(e, 'minecraft:water', `emendatusenigmatica:dirty_${item}`, `emendatusenigmatica:clean_${item}`)
-      recipes.mekanism.crystallizing(e, `emendatusenigmatica:dirty_${item}`, `emendatusenigmatica:${item}_crystal`)
+      recipes.mekanism.crystallizing(e, `emendatusenigmatica:dirty_${item}_slurry`, `emendatusenigmatica:${item}_crystal`)
       recipes.mekanism.injecting(e, `emendatusenigmatica:${item}_crystal`, 'mekanism:hydrogen_chloride', `emendatusenigmatica:${item}_shard`)
       recipes.mekanism.purifying(e, `emendatusenigmatica:${item}_shard`, 'mekanism:oxygen', `emendatusenigmatica:${item}_clump`)
       recipes.mekanism.crushing(e, `emendatusenigmatica:${item}_clump`, `emendatusenigmatica:${item}_dirty_dust`)
-      recipes.mekanism.enriching(e, `emendatusenigmatica:${item}_dirty_dust`, `emendatusenigmatica:${item}_dust`)
+
+      if (!utils.listOf(['redstone', 'arcane', 'bitumen']).contains(item)) {
+        recipes.mekanism.enriching(e, `emendatusenigmatica:${item}_dirty_dust`, `emendatusenigmatica:${item}_dust`)
+      }
     },
     crushing: (e, input, output) => {
-      e.custom({
+      let recipe = {
         type: 'mekanism:crushing',
-        input: { ingredient: { tag: input } },
+        input: { ingredient: {} },
         output: { item: output }
-      })
+      }
+
+      input.startsWith('#')
+        ? recipe.input.ingredient['tag'] = input.slice(1)
+        : recipe.input.ingredient['item'] = input
+
+      e.custom(recipe)
     },
     crystallizing: (e, input, output) => {
       e.custom({
@@ -60,35 +69,59 @@ recipes = {
       })
     },
     dissolution: (e, input, gasInput, output) => {
-      e.custom({
+      let recipe = {
         type: 'mekanism:dissolution',
-        itemInput: { ingredient: { tag: input } },
+        itemInput: { ingredient: {} },
         gasInput: { amount: 1, gas: gasInput },
         output: { slurry: output, amount: 1000, chemicalType: 'slurry' }
-      })
+      }
+
+      input.startsWith('#')
+        ? recipe.itemInput.ingredient['tag'] = input.slice(1)
+        : recipe.itemInput.ingredient['item'] = input
+
+      e.custom(recipe)
     },
     enriching: (e, input, output) => {
-      e.custom({
+      let recipe = {
         type: 'mekanism:enriching',
-        input: { ingredient: { tag: input } },
+        input: { ingredient: {} },
         output: { item: output }
-      })
+      }
+
+      input.startsWith('#')
+        ? recipe.input.ingredient['tag'] = input.slice(1)
+        : recipe.input.ingredient['item'] = input
+
+      e.custom(recipe)
     },
     injecting: (e, input, gasInput, output) => {
-      e.custom({
+      let recipe = {
         type: 'mekanism:injecting',
-        itemInput: { ingredient: { tag: input } },
+        itemInput: { ingredient: {} },
         gasInput: { amount: 1, gas: gasInput },
         output: { item: output }
-      })
+      }
+
+      input.startsWith('#')
+        ? recipe.itemInput.ingredient['tag'] = input.slice(1)
+        : recipe.itemInput.ingredient['item'] = input
+
+      e.custom(recipe)
     },
     purifying: (e, input, gasInput, output) => {
-      e.custom({
+      let recipe = {
         type: 'mekanism:purifying',
-        itemInput: { ingredient: { tag: input } },
+        itemInput: { ingredient: {} },
         gasInput: { amount: 1, gas: gasInput },
         output: { item: output }
-      })
+      }
+
+      input.startsWith('#')
+        ? recipe.itemInput.ingredient['tag'] = input.slice(1)
+        : recipe.itemInput.ingredient['item'] = input
+
+      e.custom(recipe)
     },
     washing: (e, fluidInput, slurryInput, output) => {
       e.custom({
@@ -97,6 +130,14 @@ recipes = {
         slurryInput: { amount: 1, slurry: slurryInput },
         output: { slurry: output, amount: 1 }
       })
+    }
+  },
+  custom: {
+    crushing: (e, inputs, outputs) => {
+      e.recipes.mekanism.crushing(outputs, inputs)
+      e.recipes.create.crushing(outputs, inputs)
+      e.recipes.immersiveengineering.crusher(outputs, inputs)
+      e.recipes.thermal.pulverizer(outputs, inputs)
     }
   }
 }

@@ -10,7 +10,7 @@ onEvent('item.tags', e => {
   e.add('minecraft:wooden_buttons', ['/forbidden_arcanus:.+_button/'])
   e.add('minecraft:planks', ['/forbidden_arcanus:.+_planks/'])
   e.add('ultimine:zychorium_vein', ['#zycraft:ores/zychorium', 'zycraft:zychorite'])
-  e.add('ultimine:obsidian', ['minecraft:obsidian', 'zycraft:zychorite'])
+  e.add('ultimine:obsidian', ['minecraft:obsidian', 'minecraft:crying_obsidian'])
   //#endregion
   //#region removals
   e.remove('minecraft:beehives', ['resourcefulbees:t1_beehive', 'resourcefulbees:t2_beehive', 'resourcefulbees:t3_beehive', 'resourcefulbees:t4_beehive'])
@@ -24,8 +24,8 @@ onEvent('item.tags', e => {
 //#region BLOCK TAGS
 onEvent('block.tags', e => {
   //#region additions
-  e.add('ultimine:zychorium_vein', ['#zycraft:ores/zychorium', 'minecraft:crying_obsidian'])
-  e.add('ultimine:obsidian', ['minecraft:obsidian', 'zycraft:zychorite'])
+  e.add('ultimine:zychorium_vein', ['#zycraft:ores/zychorium', 'zycraft:zychorite'])
+  e.add('ultimine:obsidian', ['minecraft:obsidian', 'minecraft:crying_obsidian'])
   e.add('integrateddynamics:menril_logs', ['integrateddynamics:menril_log_filled'])
   e.add('resourcefulbees:valid_apiary', ['glassential:glass_dark_ethereal', 'glassential:glass_dark_ethereal_reverse', 'glassential:glass_ethereal', 'glassential:glass_ethereal_reverse', 'glassential:glass_ghostly'])
   e.add('forge:gems/quartz', ['zycraft:quartz_crystal'])

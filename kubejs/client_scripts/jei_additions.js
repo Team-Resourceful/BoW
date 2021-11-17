@@ -10,6 +10,8 @@ onEvent('jei.add.items', e => {
     'chipped:mechanist_workbench',
     'zycraft:aluminium_foil',
     'zycraft:quartz_bucket',
-    'zycraft:aluminium_can'
+    'zycraft:aluminium_can',
+    'mekanism:creative_chemical_tank',
+    'mekanism:creative_fluid_tank'
   ])
 })
