@@ -1,88 +1,80 @@
 onEvent('jei.hide.items', e => {
-  //#region consts
   let refined = ['controller', 'creative_controller', 'grid', 'crafting_grid', 'pattern_grid', 'fluid_grid', 'network_receiver', 'network_transmitter', 'relay', 'detector', 'security_manager', 'wireless_transmitter', 'disk_manipulator', 'crafter', 'crafter_manager', 'crafting_monitor']
   let colors = ['white', 'light_gray', 'gray', 'black', 'red', 'orange', 'yellow', 'lime', 'green', 'light_blue', 'cyan', 'blue', 'purple', 'magenta', 'pink', 'brown']
-  let enimaticaRemovals = ['certus', 'fluix', 'cobalt', 'iridium', 'cast_iron', 'enigmatic_fortunizer', 'enigmatic_hammer', 'thallasium', 'regalium', 'utherium', 'froststeel', 'cloggrum', 'nebu', 'cluster']
-  //#endregion
-  //#region functions
-  /**
-   * @param  {String} mod Name of the mod to be used in the removal
-   * @param  {String} metal Name of the metal to be used in the removal
-   */
-  function hideMetal(mod, name) {
-    if (mod == 'mekanism' || mod == 'immersiveengineering') {
-      if (!Ingredient.of(`${mod}:nugget_${name}`).stacks.empty) e.hide(`${mod}:nugget_${name}`)
-      if (!Ingredient.of(`${mod}:ingot_${name}`).stacks.empty) e.hide(`${mod}:ingot_${name}`)
-      if (!Ingredient.of(`${mod}:storage_${name}`).stacks.empty) e.hide(`${mod}:storage_${name}`)
-      if (!Ingredient.of(`${mod}:dust_${name}`).stacks.empty) e.hide(`${mod}:dust_${name}`)
-      if (!Ingredient.of(`${mod}:${mod == 'mekanism' ? name + '_ore' : 'ore_' + name}`).stacks.empty) e.hide(`${mod}:${mod == 'mekanism' ? name + '_ore' : 'ore_' + name}`)
-    } else {
-      if (!Ingredient.of(`${mod}:${name}_nugget`).stacks.empty) e.hide(`${mod}:${name}_nugget`)
-      if (!Ingredient.of(`${mod}:${name}_ingot`).stacks.empty) e.hide(`${mod}:${name}_ingot`)
-      if (!Ingredient.of(`${mod}:${name}_block`).stacks.empty) e.hide(`${mod}:${name}_block`)
-      if (!Ingredient.of(`${mod}:${name}_dust`).stacks.empty) e.hide(`${mod}:${name}_dust`)
-      if (!Ingredient.of(`${mod}:${name}_ore`).stacks.empty) e.hide(`${mod}:${name}_ore`)
-    }
-  }
-  //#endregion
+  let enimaticaRemovals = ['lithium', 'certus', 'fluix', 'cobalt', 'iridium', 'cast_iron', 'enigmatic_fortunizer', 'enigmatic_hammer', 'thallasium', 'regalium', 'utherium', 'froststeel', 'cloggrum', 'nebu', 'cluster']
 
-  hideMetal('create', 'copper')
-  hideMetal('eidolon', 'lead')
-  hideMetal('mekanism', 'tin')
-  hideMetal('mekanism', 'lead')
-  hideMetal('mekanism', 'copper')
-  hideMetal('occultism', 'copper')
-  hideMetal('occultism', 'silver')
-  hideMetal('projectred-core', 'tin')
-  hideMetal('projectred-core', 'copper')
-  hideMetal('projectred-core', 'silver')
-  hideMetal('immersiveengineering', 'lead')
-  hideMetal('immersiveengineering', 'copper')
-  hideMetal('immersiveengineering', 'nickel')
-  hideMetal('immersiveengineering', 'silver')
-
+  //#region unification removals
   // remove enigmatica things
   enimaticaRemovals.forEach(item => {
     e.hide(`/^emendatusenigmatica:.*${item}.*/`)
   })
 
+  utils.listOf(['apatite', 'cinnabar', 'niter', 'sulfur']).forEach(item => e.hide([`thermal:${item}`, `thermal:${item}_dust`, `thermal:${item}_block`]))
+  utils.listOf(['lapis', 'diamond', 'emerald', 'quartz']).forEach(item => e.hide([`thermal:${item}_dust`, `thermal:${item}_gear`, `thermal:${item}_plate`, `thermal:${item}_coin`]))
+  utils.listOf(['copper', 'tin', 'lead', 'silver', 'nickel', 'bronze', 'electrum', 'invar', 'constantan', 'signalum', 'lumium', 'enderium']).forEach(item => e.hide([`thermal:${item}_ingot`, `thermal:${item}_nugget`, `thermal:${item}_dust`, `thermal:${item}_gear`, `thermal:${item}_plate`, `thermal:${item}_coin`, `thermal:${item}_block`]))
+
+  e.hide([
+    'bloodmagic:saltpeter',
+    'bloodmagic:sulfur',
+    'eidolon:sulfur',
+    'immersivepetroleum:bitumen',
+    'immersivepetroleum:petcoke_block',
+    'immersivepetroleum:petcoke',
+    'immersivepetroleum:petcoke_dust',
+    'immersiveengineering:coke',
+    'immersiveengineering:slab_coke',
+    'immersiveengineering:coal_coke',
+    'immersiveengineering:dust_coke',
+    'immersiveengineering:dust_wood',
+    'thermal:bitumen',
+    'thermal:bitumen_block',
+    'thermal:apatite',
+    'thermal:cinnabar',
+    'thermal:niter',
+    'thermal:sulfur',
+    'thermal:ender_pearl_dust',
+    'thermal:sawdust_block',
+    'thermal:sawdust',
+    'mekanism:block_charcoal',
+    'mekanism:dust_sulfur',
+    'mekanism:dust_charcoal',
+
+    /^emendatusenigmatica:.*_ore/,
+    /^thermal:.*coke.*/
+  ])
+  //#endregion
+
+  //color related removals
   colors.forEach(color => {
     refined.forEach(item => e.hide([`refinedstorage:${color}_${item}`]))
     e.hide([`creativewirelesstransmitter:${color}_creative_wireless_transmitter`])
   })
 
+  //general removals
   e.hide([
-    'apotheosis:iron_mining_arrow',
-    'apotheosis:diamond_mining_arrow',
-    'apotheosis:explosive_arrow',
     '@chipped',
+
     /engineerstools:.+_grit/,
-    'naturesaura:chunk_loader',
-    'bloodmagic:saltpeter',
-    'bloodmagic:sulfur',
-    'kubejs:dummy_fluid_item',
-    'mekanism:sawdust',
-    'mekanism:block_charcoal',
-    'mekanism:dust_sulfur',
-    'immersiveengineering:slag',
-    'immersivepetroleum:bitumen',
-    'immersivepetroleum:oil_bucket',
-    'xreliquary:alkahestry_tome',
-    'eidolon:sulfur',
+    /ftblibrary:fluid_container/,
     /resourcefulbees:.*spawn_egg/,
-    'create:honey_bucket',
-    'thermal:creosote_bucket',
-    'thermal:crude_oil_bucket',
-    /^thermal:.*coke.*/,
-    'thermal:rf_coil_creative_augment',
-    'thermal:fluid_tank_creative_augment',
-    'thermal:machine_catalyst_creative_augment',
-    'translocators:diamond_nugget',
-    'createaddition:diamond_grit',
     /supplementaries:bamboo_spikes_tipped/,
     /zycraft:aluminium_foil/,
     /zycraft:quartz_bucket/,
     /zycraft:aluminium_can/,
-    /ftblibrary:fluid_container/
+
+    'apotheosis:iron_mining_arrow',
+    'apotheosis:diamond_mining_arrow',
+    'apotheosis:explosive_arrow',
+    'create:honey_bucket',
+    'createaddition:diamond_grit',
+    'immersiveengineering:slag',
+    'immersivepetroleum:oil_bucket',
+    'kubejs:dummy_fluid_item',
+    'mekanism:sawdust',
+    'naturesaura:chunk_loader',
+    'thermal:creosote_bucket',
+    'thermal:crude_oil_bucket',
+    'translocators:diamond_nugget',
+    'xreliquary:alkahestry_tome',
   ])
 })

@@ -1,6 +1,9 @@
 {
 	merge_tags: [
 		"ultimine:zychorium_vein"
+		"ultimine:obsidian"
 		"integrateddynamics:menril_logs"
+		"c:*_ores"
+		"forge:ores/*"
 	]
 }

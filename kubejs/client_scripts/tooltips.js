@@ -23,7 +23,6 @@ onEvent('item.tooltip', e => {
   formattedTooltip('mahoutsukai:caliburn', 'This item is obtained by throwing an enchanted sword into a lake created by the Power Consolidation ritual.')
   formattedTooltip('mahoutsukai:morgan', 'This item is obtained by killing a tamed wolf with a Caliburn.')
   formattedTooltip('resourcefulbees:honey_dipper', 'Use this item on the Beehemoth to check its current friendship level.')
-
   //#region Pipez
   //pipes
   e.add('pipez:item_pipe', [
