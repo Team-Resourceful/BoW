@@ -1,6 +1,0 @@
-[worldgen]
-[worldgen.oregen]
-[worldgen.oregen.copperOre]
-generateOre = true
-[worldgen.oregen.silverOre]
-generateOre = true

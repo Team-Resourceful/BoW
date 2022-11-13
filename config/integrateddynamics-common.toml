@@ -1,7 +1,0 @@
-[core]
-[core.general]
-analytics = false
-versionChecker = false
-[item]
-[item.on_the_dynamics_of_integration]
-obtainOnSpawn = false

@@ -1,9 +1,0 @@
-[advanced]
-CenterSearch = true
-ColorSearchMode = "REQUIRE_PREFIX"
-CreativeTabSearchMode = "REQUIRE_PREFIX"
-MaxColumns = 100
-ResourceIdSearchMode = "REQUIRE_PREFIX"
-TooltipSearchMode = "REQUIRE_PREFIX"
-[modname]
-ModNameFormat = ""

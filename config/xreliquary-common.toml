@@ -1,5 +1,0 @@
-[disable]
-alkahestryTome = true
-[items]
-[items.sojournerStaff]
-torches = ["minecraft:torch"]

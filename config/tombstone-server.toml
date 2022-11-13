@@ -1,8 +1,0 @@
-[enchantments]
-enable_enchantment_soulbound = false
-[player_death]
-xp_loss = 0
-[decorative_grave]
-cooldown_reset_perk = 20
-tablet_cooldown = 60
-tablet_max_use = 10

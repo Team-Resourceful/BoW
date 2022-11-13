@@ -1,7 +1,0 @@
-["Dynamic Chunk View Distance Settings"]
-logMessages = true
-maxChunkViewDist = 10
-meanAvgTickTime = 43
-viewDistanceUpdateRate = 120
-["Chunk slow unload settings"]
-chunkunload = true

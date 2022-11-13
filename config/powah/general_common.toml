@@ -1,5 +1,0 @@
-[Materials]
-coolantFluids = ["minecraft:water=1"]
-coolantFluidsAPI = true
-heatBlocksAPI = true
-heatSources = ["minecraft:lava=1000", "minecraft:magma_block=800", "powah:blazing_crystal_block=2800"]
