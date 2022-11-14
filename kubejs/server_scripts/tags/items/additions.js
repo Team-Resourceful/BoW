@@ -1,0 +1,13 @@
+ServerEvents.tags('item', e => {
+  // e.add('forge:marble', ['#chisel:marble'])
+  // e.add('integrateddynamics:menril_logs', ['integrateddynamics:menril_log_filled'])
+  // e.add('chisel:marble', ['astralsorcery:marble_raw', 'quark:marble'])
+  // e.add('chisel:limestone', ['create:limestone', 'create:weathered_limestone', 'quark:limestone'])
+  // e.add('forge:ingots/aluminum', ['zycraft:aluminium'])
+  // e.add('forge:ingots/aluminium', ['zycraft:aluminium'])
+  // e.add('forge:plastic', ['#pneumaticcraft:plastic_sheets', 'mekanism:hdpe_sheet'])
+  // e.add('minecraft:wooden_buttons', ['/forbidden_arcanus:.+_button/'])
+  // e.add('minecraft:planks', ['/forbidden_arcanus:.+_planks/'])
+  // e.add('ultimine:zychorium_vein', ['#zycraft:ores/zychorium', 'zycraft:zychorite'])
+  // e.add('ultimine:obsidian', ['minecraft:obsidian', 'minecraft:crying_obsidian'])
+})

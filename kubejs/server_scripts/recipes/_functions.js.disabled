@@ -1,0 +1,39 @@
+//priority: 0
+
+/**
+ * Removes recipes based on the given list of recipe IDs.
+ * @param {RecipesEventJS} e - The recipe event.
+ * @param {ResourceLocation[]} recipes - The list of recipe IDs.
+ * @example <caption>Example usage:</caption>
+ * removeRecipesByID(e, [
+ *  'minecraft:stone'
+ * ])
+ */
+let removeRecipesByID = (e, recipes) => {
+  recipes.forEach(recipe => {
+    e.remove({
+      id: recipe
+    })
+  })
+}
+
+/**
+ * Removes recipes based on the given list of outputs.
+ * @param {RecipesEventJS} e - The recipe event.
+ * @param {ResourceLocation[]} recipes - The list of outputs. Each element can be either an item ID or a 2 element array containing an item ID and a type.
+ * @example <caption>Example usage:</caption>
+ * removeRecipesByOutput(e, [
+ *  'minecraft:stone',
+ * ['minecraft:stone', 'minecraft:crafting_shaped']
+ * ])
+ */
+let removeRecipesByOutput = (e, recipes) => {
+  recipes.forEach(recipe => {
+    Array.isArray(recipe) ? e.remove({
+      type: recipe[1],
+      output: recipe[0]
+    }) : e.remove({
+      output: recipe
+    })
+  })
+}
