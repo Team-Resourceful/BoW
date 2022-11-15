@@ -1,7 +1,7 @@
 StartupEvents.registry('item', e => {
-	e.create('resourcefulbees:dev_tool')
+	e.create('resourcefulbees:bloodmourne')
 		.maxStackSize(1)
-		.displayName('§4Dev Tool')
-		.tooltip('You should only have this item')
-		.tooltip('if you know what you\'re doing.')
+		.displayName('§4Bloodmourne')
+		.tooltip(Component.red('You should only have this item'))
+		.tooltip(Component.red('if you know what you\'re doing.'))
 })
