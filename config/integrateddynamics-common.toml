@@ -3,3 +3,9 @@
 [item.on_the_dynamics_of_integration]
 obtainOnSpawn = false
 bookRewards = false
+
+[core]
+
+[core.general]
+analytics = false
+versionChecker = false
