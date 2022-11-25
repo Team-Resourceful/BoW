@@ -1,0 +1,22 @@
+{
+  "id": "brass",
+  "source": "modded",
+  "localizedName": "Brass",
+  "processedTypes": [
+    "ingot",
+    "nugget",
+    "dust",
+    "plate",
+    "gear",
+    "rod",
+    "storage_block"
+  ],
+  "properties": {
+    "materialType": "metal",
+    "harvestLevel": 2
+  },
+  "colors": {
+    "fluidColor": "E1C16E",
+    "materialColor": "E1C16E"
+  }
+}

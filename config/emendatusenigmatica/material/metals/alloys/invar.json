@@ -1,0 +1,22 @@
+{
+  "id": "invar",
+  "source": "modded",
+  "localizedName": "Invar",
+  "processedTypes": [
+    "ingot",
+    "nugget",
+    "dust",
+    "plate",
+    "gear",
+    "rod",
+    "storage_block"
+  ],
+  "properties": {
+    "materialType": "metal",
+    "harvestLevel": 2
+  },
+  "colors": {
+    "fluidColor": "a9b9b0",
+    "materialColor": "a9b9b0"
+  }
+}

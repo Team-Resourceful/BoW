@@ -1,0 +1,26 @@
+{
+  "type": "emendatusenigmatica:sphere_deposit",
+  "dimension": "minecraft:overworld",
+  "biomes": [],
+  "registryName": "overworld_coal_ore_deposit_lower",
+  "config": {
+    "blocks": [{
+      "material": "coal",
+      "weight": 100
+    }, {
+      "block": "minecraft:coal_block",
+      "weight": 10
+    }, {
+      "material": "diamond",
+      "weight": 1
+    }],
+    "fillerTypes": [
+      "stone",
+      "deepslate"
+    ],
+    "chance": 2000,
+    "radius": 17,
+    "minYLevel": -64,
+    "maxYLevel": 64
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "iron",
+  "source": "vanilla",
+  "localizedName": "Iron",
+  "disableDefaultOre": true,
+  "processedTypes": [
+    "ore",
+    "dust",
+    "plate",
+    "gear",
+    "rod",
+    "fluid",
+    "slurry",
+    "crystal",
+    "shard",
+    "clump",
+    "dirtyDust"
+  ],
+  "properties": {
+    "materialType": "metal",
+    "harvestLevel": 1
+  },
+  "oreDrop": {
+    "drop": "minecraft:raw_iron",
+    "min": 1,
+    "max": 1
+  }
+}

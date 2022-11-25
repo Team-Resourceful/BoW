@@ -1,0 +1,22 @@
+{
+  "id": "constantan",
+  "source": "modded",
+  "localizedName": "Constantan",
+  "processedTypes": [
+    "ingot",
+    "nugget",
+    "dust",
+    "plate",
+    "gear",
+    "rod",
+    "storage_block"
+  ],
+  "properties": {
+    "materialType": "metal",
+    "harvestLevel": 2
+  },
+  "colors": {
+    "fluidColor": "9c9c9c",
+    "materialColor": "9c9c9c"
+  }
+}

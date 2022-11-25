@@ -1,0 +1,22 @@
+{
+  "id": "electrum",
+  "source": "modded",
+  "localizedName": "Electrum",
+  "processedTypes": [
+    "ingot",
+    "nugget",
+    "dust",
+    "plate",
+    "gear",
+    "rod",
+    "storage_block"
+  ],
+  "properties": {
+    "materialType": "metal",
+    "harvestLevel": 2
+  },
+  "colors": {
+    "fluidColor": "f3e2ba",
+    "materialColor": "f3e2ba"
+  }
+}
