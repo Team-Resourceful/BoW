@@ -15,5 +15,8 @@
     "drop": "minecraft:lapis_lazuli",
     "min": 4,
     "max": 9
+  },
+  "colors": {
+    "materialColor": "4386e2"
   }
 }

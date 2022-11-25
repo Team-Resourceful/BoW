@@ -1,10 +1,28 @@
 {
-  "type": "emendatusenigmatica:sphere_deposit",
+  "type": "emendatusenigmatica:geode_deposit",
   "dimension": "minecraft:overworld",
   "biomes": [],
   "registryName": "overworld_coal_ore_deposit_lower",
   "config": {
-    "blocks": [{
+    "outerShellBlocks": [{
+        "block": "minecraft:basalt",
+        "weight": 10
+      },
+      {
+        "block": "minecraft:obsidian",
+        "weight": 3
+      }
+    ],
+    "innerShellBlocks": [{
+        "block": "minecraft:blackstone",
+        "weight": 10
+      },
+      {
+        "block": "minecraft:tuff",
+        "weight": 3
+      }
+    ],
+    "innerBlocks": [{
       "material": "coal",
       "weight": 100
     }, {
@@ -13,6 +31,10 @@
     }, {
       "material": "diamond",
       "weight": 1
+    }],
+    "fillBlocks": [{
+      "block": "minecraft:air",
+      "weight": 10
     }],
     "fillerTypes": [
       "strata_stone",

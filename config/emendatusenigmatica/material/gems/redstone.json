@@ -17,6 +17,7 @@
     "max": 5
   },
   "colors": {
-    "particlesColor": "ff0000"
+    "particlesColor": "ff0000",
+    "materialColor": "f82e2e"
   }
 }

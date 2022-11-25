@@ -24,5 +24,9 @@
     "drop": "minecraft:raw_copper",
     "min": 2,
     "max": 5
+  },
+  "colors": {
+    "fluidColor": "f9ac3d",
+    "materialColor": "f9ac3d"
   }
 }

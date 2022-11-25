@@ -15,5 +15,8 @@
     "drop": "minecraft:emerald",
     "min": 1,
     "max": 1
+  },
+  "colors": {
+    "materialColor": "29dc61"
   }
 }
