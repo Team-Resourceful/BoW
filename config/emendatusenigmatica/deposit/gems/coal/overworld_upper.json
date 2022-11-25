@@ -6,8 +6,14 @@
   "config": {
     "material": "coal",
     "fillerTypes": [
-      "minecraft_stone",
-      "minecraft_deepslate"
+      "strata_stone",
+      "strata_deepslate",
+      "strata_andesite",
+      "strata_diorite",
+      "strata_granite",
+      "strata_shale",
+      "strata_soapstone",
+      "strata_tuff"
     ],
     "chance": 30,
     "size": 17,

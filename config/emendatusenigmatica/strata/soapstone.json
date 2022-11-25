@@ -1,0 +1,7 @@
+{
+  "id": "strata_soapstone",
+  "baseTexture": "byg:block/soapstone",
+  "suffix": "soapstone",
+  "fillerType": "byg:soapstone",
+  "localizedName": "Soapstone"
+}

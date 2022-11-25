@@ -15,12 +15,18 @@
       "weight": 1
     }],
     "fillerTypes": [
-      "stone",
-      "deepslate"
+      "strata_stone",
+      "strata_deepslate",
+      "strata_andesite",
+      "strata_diorite",
+      "strata_granite",
+      "strata_shale",
+      "strata_soapstone",
+      "strata_tuff"
     ],
     "chance": 2000,
     "radius": 17,
     "minYLevel": -64,
-    "maxYLevel": 64
+    "maxYLevel": 128
   }
 }

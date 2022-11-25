@@ -1,0 +1,7 @@
+{
+  "id": "strata_granite",
+  "baseTexture": "minecraft:block/granite",
+  "suffix": "granite",
+  "fillerType": "minecraft:granite",
+  "localizedName": "Granite"
+}
