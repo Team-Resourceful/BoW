@@ -2,7 +2,7 @@
   "type": "emendatusenigmatica:geode_deposit",
   "dimension": "minecraft:overworld",
   "biomes": [],
-  "registryName": "overworld_coal_ore_deposit_lower",
+  "registryName": "deposit_coal_overworld_geode",
   "config": {
     "outerShellBlocks": [{
         "block": "minecraft:basalt",
@@ -37,18 +37,11 @@
       "weight": 10
     }],
     "fillerTypes": [
-      "strata_stone",
-      "strata_deepslate",
-      "strata_andesite",
-      "strata_diorite",
-      "strata_granite",
-      "strata_shale",
-      "strata_soapstone",
-      "strata_tuff"
+      "strata_air"
     ],
-    "chance": 2000,
-    "radius": 17,
+    "chance": 100,
+    "radius": 10,
     "minYLevel": -64,
-    "maxYLevel": 128
+    "maxYLevel": 300
   }
 }

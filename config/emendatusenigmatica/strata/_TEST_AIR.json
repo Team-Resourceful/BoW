@@ -1,0 +1,7 @@
+{
+  "id": "strata_air",
+  "baseTexture": "minecraft:block/bricks",
+  "suffix": "air",
+  "fillerType": "minecraft:air",
+  "localizedName": "Air"
+}
